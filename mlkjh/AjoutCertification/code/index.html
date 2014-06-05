@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>jQuery Modal Contact Demo</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
+  <link rel="stylesheet" type="text/css" media="all" href="fancybox/jquery.fancybox.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="fancybox/jquery.fancybox.js?v=2.0.6"></script>
+</head>
+
+<body>
+<div id="wrapper">
+	<p>Send us feedback from the modal window.</p>
+
+	<p><a class="modalbox" href="#inline">click to open</a></p>
+</div>
+
+<!-- hidden inline form -->
+<div id="inline">
+	<h2>Ajouter Certification</h2>
+
+	<form id="contact" name="contact" action="#" method="post">
+		
+        <label for="titre">Titre</label>
+		<input type="text" id="titre" name="titre" class="txt">
+        <br>
+		<label for="depart">Ville</label>
+		<input type="text" id="departement" name="departement" class="txt">
+        <br>
+		<label for="descr">Date</label>
+		<input type="text" id="description" name="description" class="txt">
+		
+		<button type="submit" id="send">Enregistrer</button>
+        
+	</form>
+</div>
+
+<!-- basic fancybox setup -->
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+		$(".modalbox").fancybox();
+		$("#contact").submit(function() { return false; });
+
+		
+		$("#send").on("click", function(){
+			var titre_val  = $("#titre").val();
+			var dept_val    = $("#departement").val();
+			
+			var titre_len    = titre_val.length;
+			var dept_len    = dept_val.length;
+			
+			
+									
+			if(titre_len < 3) {
+				$("#titre").addClass("error");
+			}
+			else if(titre_len >= 3){
+				$("#titre").removeClass("error");
+			}
+			
+			if(dept_len < 4) {
+				$("#departement").addClass("error");
+			}
+			else if(dept_len >= 4){
+				$("#departement").removeClass("error");
+			}
+			
+			
+			
+			if(titre_len >= 3 && dept_len >= 4) {
+				// if both validate we attempt to send the e-mail
+				// first we hide the submit btn so the user doesnt click twice
+				$("#send").replaceWith("<em>enregistrement...</em>");
+				
+				$.ajax({
+					type: 'POST',
+					url: 'sendmessage.php',
+					data: $("#contact").serialize(),
+					success: function(data) {
+						if(data == "true") {
+							$("#contact").fadeOut("fast", function(){
+								$(this).before("<p><strong>Ajout avec Succès! :)</strong></p>");
+								setTimeout("$.fancybox.close()", 1000);
+							});
+						}
+					}
+				});
+			}
+		});
+	});
+</script>
+
+</body>
+</html>

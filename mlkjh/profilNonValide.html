@@ -1,0 +1,171 @@
+<?php
+include "inc/functions.php";
+
+if (!isset($_SESSION['login'])) {
+	header ('Location: signin.php');
+	exit();
+}
+
+
+
+?>
+
+<!DOCTYPE html>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta charset="utf-8">
+<title>Mon Profil Doctunisie</title>
+
+
+
+
+<link rel="stylesheet" href="./css/shim.css">
+
+<link href="./css" media="screen" rel="stylesheet" type="text/css">
+<link href="./css/common-48b47f12185172f2d1859c37be61963a.css" media="all" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]><link href="./css/standard_ie-c8073322d755e2f8867daa792ef89278.css" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+
+<script src="./js/application-ccb73cc251cb0b24f6438e07e16dc455.js" type="text/javascript"></script>
+<script src="./js/application-2d39b9d84ac29fbd53e6f0447918910e.js" type="text/javascript"></script>
+
+
+
+<link href="./css/profile-6730ed749bfaf808fb49a52c8315f243.css" media="screen" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+.fancybox-margin{margin-right:0px;}
+</style>
+
+
+
+
+
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="inner">
+      <p id="logoin"><a href="#"><img alt="Logo-onblack" src="./img/logo-doctunisie_00.png"></a></p>
+      <label id="navsearch" ontouchstart="">
+      <form accept-charset="UTF-8" action="/search" id="search_form" method="get">
+        <div style="margin:0;padding:0;display:inline">
+          <input name="utf8" type="hidden" value="✓">
+        </div>
+        <input class="findall" id="search" maxlength="300" name="q" placeholder="Recherche Collègue, expertise" type="text">
+      </form>
+     
+      </label>
+      <div id="nav"><a class="pullnav" href="/profile#">Menu</a>
+        <ul>
+          <li id="home_tab"><a href="/home" class="track_click" data-mixpanel-track="Home_NavClick" data-mixpanel-wait="true">Accueil</a></li>
+          <li id="colleagues_tab"><a href="/colleagues">Collègues</a></li>
+          <li id="inbox_tab"><a href="ProfilNonValide.html" class="reserved_feature">Email</a></li>
+          <li id="docnews_tab"><a href="/doc_news">Articles</a></li>
+          <li id="groups_tab"><a href="ProfilNonValide.html">Groupes</a>
+            <ul>
+              <li class="groupdir"><a href="/groups/directory"><img alt="Ico-group-directory" src="./img/ico-group-directory-4a6bb7ae07b37421135ed3c467b1e70e.png">Annuaire groupe</a></li>
+            </ul>
+          </li>
+          <li class="here " id="profile_tab"><a href="#">Profil</a></li>
+          <li id="settings_tab"><a href="/settings"><img alt="Settings" src="./img/ico/ico-nav-settings-783d34c84b04c59263696bc9bbefb5a5.png"><span>Paramètres</span></a>
+            <ul>
+              <li class="pro-communications"><a href="/settings">Compte &amp; Communication</a></li>
+              <li class="pro-honoraria"><a href="/career_preferences">Emplois</a></li>
+              <li class="pro-privacy"><a href="/privacy_settings">Privé</a></li>
+              <li class="pro-applications"><a href="/oauth/authorized_applications">Applications</a></li>
+              <li class="pro-docnews"><a href="/doc_news/proxies">DocNews </a></li>
+              <li class="pro-logout"><a href="deconnexion.php">Déconnexion</a></li>
+            </ul>
+          </li>
+          <li id="signout_tab"><a href="deconnexion.php">Déconnexion</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="page">
+    <div class="notice" data-sel-notice="" id="flash_notice" style="display:none">
+      <div class="inner"> <a href="/profile#" class="closer" onClick="document.getElementById(&#39;flash_notice&#39;).style.display = &#39;none&#39;; return false;" title="Dismiss"></a> <span id="flash_message"> </span> </div>
+    </div>
+    
+    <div class="verify-notice col-2-3"><img alt="This feature is reserved for verified Doximity users." class="whoareyou" src="./img/doc_notverified-cc969381e36e4e49e200d093d17f9222.png">
+      <div class="verifytext">
+        <h1>Faites-vous vérifié pour déverrouiller toutes les fonctionnalités de Doctunisie.</h1>
+        <hr>
+        <p class="strong">Voici quelques moyens de vérification:</p>
+        <ol class="list">
+          <li><a href="">Entrer votre inscrit au tableau de l'ordre </a> tenu par le conseil national de l'ordre des médecins.
+            <span>Nous l'utilisons pour la vérification et ne sera pas stocké.</span></li>
+          <li><a href="mailto:support@doctunisie.com">Email</a> nous une photo de votre permis d'exercice ou ID de la faculté. <br>
+            <span>Prenez une photo et l'envoyer à <a href="mailto:support@doctunisie.com">support@doctunisie.com</a>.</span></li>
+          <li>Fax nous une photo de votre permis d'exercice ou ID de la faculté. <br>
+            <span></span><span style="color:blue">(+216) 71 999 111.</span></li>
+        </ol>
+      </div>
+    </div>
+    
+  <div>
+    <div class="profiler"></div>
+    </div>
+</div>
+  </div>
+  
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<div class="foot">
+  <p class="navline linknav">
+    <span class="copyright">&copy; 2014 DocTunisie, Inc.</span>
+    <a href="about.html">A propos nous</a>
+	<a href="product.html">Produit</a>
+    <a href="press.html">Presse</a>
+	<a href="help.html">Contacter</a>
+  <a href="privacy.html">Privé</a></p>
+  	<p class="navline"><span id="siteseal"><strong>Vérifié et sécurisé<small>SSL: Secure Socket Layer</small></strong></span></p>
+</div>
+<a href="/profile#" id="feedbacker"><img alt="Share your feedback and ideas" src="./img/ico/feedbacktab-5cd1d0dff3a42317e35339cab67b67c3.png"></a>
+<script defer type="text/javascript">
+var feedback_form = new App.Feedback("mloukinajib@gmail.com");
+jQuery('#feedbacker').bind('click', feedback_form.open);
+</script>
+<div class="dialog grid hidden" style="display: block;">
+  <div class="dialog-modal" style="width: 500px;">
+    <h2 class="title">Share your feedback and ideas</h2>
+    <a class="close" ontouch="">Close</a>
+    <div class="content">
+      <div>
+        <form action="/feedback" method="post" data-remote="true">
+          <p> <strong>What can we do better? Tell us!</strong>
+            <label>
+            <textarea id="feedback_message" name="feedback_message" rows="3" placeholder="Doximity, where have you been all my life!?" class="fullest"></textarea>
+            </label>
+          </p>
+          <input type="hidden" id="feedback_from" name="feedback_from" value="mloukinajib@gmail.com">
+          <fieldset class="sansindent">
+          </fieldset>
+          <input type="hidden" id="feedback_path" name="feedback_path">
+          <p class="buttonset">
+            <button class="btn blue" type="submit">Send feedback</button>
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="bottom"></div>
+    <div style="display:none;" class="dialog-loading"> <span>Loading…</span> </div>
+  </div>
+</div>
+<!-- furry little rodents -->
+
+<!-- furry little rodents -->
+
+
+
+
+
+<!-- end Mixpanel -->
+
+
+</body>
+</html>
