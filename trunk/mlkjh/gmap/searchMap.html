@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)./ -->
+<html class="" style="overflow: visible;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" async src="../js/mixpanel-2.2.min.js"></script>
+
+
+<meta charset="utf-8">
+
+<link href="../css/home-d83582b66c6b7a34330696f06aa6c009.css" media="screen" rel="stylesheet" type="text/css">
+
+<title>Recherche Doctunisie</title>
+<link href="../css" media="screen" rel="stylesheet" type="text/css">
+<link href="../css/common-48b47f12185172f2d1859c37be61963a.css" media="all" rel="stylesheet" type="text/css">
+<link href="../css/marketing-e34018dc990f47f09a6d064160be0c9b.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script src="../js/application-2d39b9d84ac29fbd53e6f0447918910e.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
+<style type="text/css">
+.fancybox-margin{margin-right:15px;} 
+#map-canvas {
+  height: 500px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  overflow: visible;
+}
+.noscrollbar {
+  line-height:1.35;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+</style>
+
+<script src="./mapping_1.0.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="inner">
+      <p id="logoin"><a href="#"><img alt="Logo-onblack" src="../img/logo-doctunisie_00.png"></a></p>
+     <ul class="signedout"  styele="display: yes;" id="nav">
+        <li id="signnow"><a href="signin.php">Identifiez-vous</a></li>
+        <li id="signnow"><a href="register1.php">S'inscrire</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="page">
+    <div class="notice" data-sel-notice="" id="flash_notice" style="display:none">
+      <div class="inner"> <a href="#" class="closer" onClick="document.getElementById(&#39;flash_notice&#39;).style.display = &#39;none&#39;; return false;" title="Dismiss"></a> <span id="flash_message"> </span> </div>
+    </div>
+    <div class="grid v2" id="home">
+      <div class="signup">
+        <div class="col-1-2" style="margin: 150px 0 40px 0;">
+          <h1>Pour les Médecins.</h1>
+          <h2>Doctunisie rend votre vie plus facile.</h2>
+          <hr>
+          <div class="register">
+            <form accept-charset="UTF-8" action="/register" method="get" name="newreg" onSubmit="return submitRegistrationForm1(event); return false;">
+              <div style="margin:0;padding:0;display:inline">
+                <input name="utf8" type="hidden" value="✓">
+              </div>
+              <fieldset>
+              <label>
+              <input id="first_name" name="first_name" placeholder="Nom" tabindex="1" type="text">
+              </label>
+              <label>
+              <input id="last_name" name="last_name" placeholder="Prénom" tabindex="2" type="text">
+              </label>
+              <button class="btn blue" id="submit_reg_search" name="button" tabindex="3" type="submit">Recherche</button>
+              <br>
+              <p><a href="/signin" class="signin">Identifiez vous</a></p>
+              </fieldset>
+            </form>
+          </div>
+          <br/>
+          <p> <a href="rechAvancee.php">Recherche Avancée</a></p>
+<br/>
+<p><a href="register1.php">Inscription</a> gratuite pour les médecins vérifiées. </p>
+        </div>
+      </div>
+      <div class="nametag">
+        <div class="col-1-2"><img alt="Hero-badge-short" class="nametag-badge" src="../img/hero-badge-short-4e23be732d028bf2c806a27075bb1a6a.png">
+          <div class="show" id="p1">
+            <div class="person"><img alt="Avatar-elise-jones" class="photo" src="../img/avatar-elise-jones-9a131a02b845f8baf28d1bbb317fc314.png"><img alt="Association-bcm" class="association" src="../img/association-bcm-cdfba8c5fcca56a44fcd4bead7a07572.png">
+              <div class="clear"></div>
+              <h5>Dr. Elise R Jones<br> 
+              <span>Endocrinologie</span></h5>
+              <h6>Professeur agrégé de clinique, le système de santé Baylor</h6>
+              <p>"Le eFax libre de mon téléphone m'a sauvé plus d'un voyage à la clinique."</p>
+            </div>
+          </div>
+          <div id="p2" class="">
+            <div class="person"><img alt="Avatar-pierre-theodore" class="photo" src="../img/avatar-pierre-theodore-6258dfdac260ebfc9d395017d7f61b26.png">
+            <img alt="Association-bcm" class="association" src="../img/association-bcm-cdfba8c5fcca56a44fcd4bead7a07572.png">
+              <div class="clear"></div>
+              <h5>Dr. Pierre R Theodore<br>
+              <span>Chirurgie Générale</span></h5>
+              <h6>Professeur agrégé de chirurgie, Van Auken chaire en chirurgie thoracique</h6>
+              <p>"Doctunisie est mon Rolodex sur les stéroïdes."</p>
+            </div>
+          </div>
+          <div id="p3" class="">
+            <div class="person"><img alt="Avatar-matthew-goldstein" class="photo" src="../img/avatar-matthew-goldstein-fb2590abf032d02c798856dc8bbd5b73.png">
+            <img alt="Association-bcm" class="association" src="../img/association-bcm-cdfba8c5fcca56a44fcd4bead7a07572.png">
+              <div class="clear"></div>
+              <h5>Dr. Matthew J Goldstein<br>
+              <span>Médecine Interne</span></h5>
+              <h6>Médecin résident, Brigham et Hôpital des femmes</h6>
+              <p>"Mon CV sur Doctunisie a ouvert les portes à la fois de conseil et de ma carrière."</p>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+       
+      <hr>
+      <div class="marketing grid" id="advisor">
+
+      <div class="row">
+       
+          <h2>Médecins Trouvés </h2>
+          
+                <div id="map-canvas"></div>
+                <div id="message"></div>
+          
+      </div>
+
+</div>
+    </div>
+    <script async defer src="./js/home-49f72337d87abd94e3c97e1fae795013.js" type="text/javascript"></script>
+  </div>
+</div>
+<div class="foot">
+    <p class="navline linknav"> <span class="copyright">&copy; 2014 DocTunisie, Inc.</span>
+        <a href="about.html">A propos nous</a>
+    	  <a href="product.html">Produit</a>
+        <a href="press.html">Presse</a>
+    	  <a href="help.html">Contacter</a>
+        <a href="privacy.html">Privé</a>
+    </p>
+  	<p class="navline"><span id="siteseal"><strong>Vérifié et sécurisé<small>SSL: Secure Socket Layer</small></strong></span></p>
+    <p class="navline seo">
+        <a href="./directory/name" class="inline">Navigation par nom:</a>
+        <a href="./directory/name/a" class="inline">a</a>
+        <a href="./directory/name/b" class="inline">b</a> <a href="./directory/name/c" class="inline">c</a> <a href="./directory/name/d" class="inline">d</a> <a href="./directory/name/e" class="inline">e</a> <a href="./directory/name/f" class="inline">f</a> <a href="./directory/name/g" class="inline">g</a> <a href="./directory/name/h" class="inline">h</a> <a href="./directory/name/i" class="inline">i</a> <a href="./directory/name/j" class="inline">j</a> <a href="./directory/name/k" class="inline">k</a> <a href="./directory/name/l" class="inline">l</a> <a href="./directory/name/m" class="inline">m</a> <a href="./directory/name/n" class="inline">n</a> <a href="./directory/name/o" class="inline">o</a> <a href="./directory/name/p" class="inline">p</a> <a href="./directory/name/q" class="inline">q</a> <a href="./directory/name/r" class="inline">r</a> <a href="./directory/name/s" class="inline">s</a> <a href="./directory/name/t" class="inline">t</a> <a href="./directory/name/u" class="inline">u</a> <a href="./directory/name/v" class="inline">v</a> <a href="./directory/name/w" class="inline">w</a> <a href="./directory/name/x" class="inline">x</a> <a href="./directory/name/y" class="inline">y</a>
+        <a href="./directory/name/z" class="inline">z</a>
+        <a href="./directory/md/location">Naviguez par État</a>
+        <a href="./hospitals">Naviguez par Hôpital</a>
+    </p>
+  <p class="navline seo"><span class="seocols"><a href="./directory/md/specialty/allergy+and+immunology">Allergy &amp; Immunology</a><a href="./directory/md/specialty/anesthesiology">Anesthesiology</a><a href="./directory/md/specialty/cardiology">Cardiology</a><a href="./directory/md/specialty/certified+registered+nurse+anesthetist">Certified Registered Nurse Anesthetist</a><a href="./directory/md/specialty/chiropractor">Chiropractor</a><a href="./directory/md/specialty/colon+and+rectal+surgery">Colon &amp; Rectal Surgery</a><a href="./directory/md/specialty/dentist">Dentist</a><a href="./directory/md/specialty/dermatology">Dermatology</a><a href="./directory/md/specialty/diet-nutritionist">Diet/Nutritionist</a><a href="./directory/md/specialty/emergency+medicine">Emergency Medicine</a><a href="./directory/md/specialty/endocrinology">Endocrinology</a><a href="./directory/md/specialty/family+medicine">Family Medicine</a><a href="./directory/md/specialty/gastroenterology">Gastroenterology</a><a href="./directory/md/specialty/general+surgery">General Surgery</a><a href="./directory/md/specialty/hematology">Hematology</a><a href="./directory/md/specialty/infectious+disease">Infectious Disease</a><a href="./directory/md/specialty/internal+medicine">Internal Medicine</a><a href="./directory/md/specialty/medical+genetics">Medical Genetics</a><a href="./directory/md/specialty/medical+genetics">Medical Genetics</a><a href="./directory/md/specialty/medicine-pediatrics">Medicine/Pediatrics</a><a href="./directory/md/specialty/neonat-perinatology">Neonat/Perinatology</a><a href="./directory/md/specialty/nephrology">Nephrology</a><a href="./directory/md/specialty/neurology">Neurology</a><a href="./directory/md/specialty/neurosurgery">Neurosurgery</a><a href="./directory/md/specialty/nuclear+medicine">Nuclear Medicine</a><a href="./directory/md/specialty/nurse+practitioner">Nurse Practitioner</a><a href="./directory/md/specialty/obstetrics+and+gynecology">Obstetrics &amp; Gynecology</a><a href="./directory/md/specialty/occupational+medicine">Occupational Medicine</a><a href="./directory/md/specialty/oncology">Oncology</a><a href="./directory/md/specialty/ophthalmology">Ophthalmology</a><a href="./directory/md/specialty/optometrist">Optometrist</a><a href="./directory/md/specialty/orthopaedic+surgery">Orthopaedic Surgery</a><a href="./directory/md/specialty/other+hc+profn'l">Other HC Profn'l</a><a href="./directory/md/specialty/other+md-do">Other MD/DO</a><a href="./directory/md/specialty/otolaryngology-ent">Otolaryngology (ENT)</a><a href="./directory/md/specialty/pathology">Pathology</a><a href="./directory/md/specialty/pediatric+cardiology">Pediatric Cardiology</a><a href="./directory/md/specialty/pediatric+emergency+medicine">Pediatric Emergency Medicine</a><a href="./directory/md/specialty/pediatric+endocrinology">Pediatric Endocrinology</a><a href="./directory/md/specialty/pediatric+gastroenterology">Pediatric Gastroenterology</a><a href="./directory/md/specialty/pediatric+hematology+and+oncology">Pediatric Hematology &amp; Oncology</a><a href="./directory/md/specialty/pediatric+infectious+disease">Pediatric Infectious Disease</a><a href="./directory/md/specialty/pediatric+nephrology">Pediatric Nephrology</a><a href="./directory/md/specialty/pediatric+pulmonology">Pediatric Pulmonology</a><a href="./directory/md/specialty/pediatric+rheumatology">Pediatric Rheumatology</a><a href="./directory/md/specialty/pediatrics">Pediatrics</a><a href="./directory/md/specialty/physical+medicine-rehab">Physical Medicine/Rehab</a><a href="./directory/md/specialty/physical+therapist">Physical Therapist</a><a href="./directory/md/specialty/physician+asst">Physician Asst</a><a href="./directory/md/specialty/plastic+surgery">Plastic Surgery</a><a href="./directory/md/specialty/podiatrist">Podiatrist</a><a href="./directory/md/specialty/preventive+medicine">Preventive Medicine</a><a href="./directory/md/specialty/psychiatry">Psychiatry</a><a href="./directory/md/specialty/psychologist">Psychologist</a><a href="./directory/md/specialty/pulmonology">Pulmonology</a><a href="./directory/md/specialty/radiation+oncology">Radiation Oncology</a><a href="./directory/md/specialty/radiology">Radiology</a><a href="./directory/md/specialty/registered+nurse">Registered Nurse</a><a href="./directory/md/specialty/research">Research</a><a href="./directory/md/specialty/resident+physician">Resident Physician</a><a href="./directory/md/specialty/rheumatology">Rheumatology</a><a href="./directory/md/specialty/social+worker">Social Worker</a><a href="./directory/md/specialty/thoracic+surgery">Thoracic Surgery</a><a href="./directory/md/specialty/urology">Urology</a><a href="./directory/md/specialty/vascular+surgery">Vascular Surgery</a></span></p>
+
+</div>
+<a href="./#" id="feedbacker"><img alt="Share your feedback and ideas" src="./img/feedbacktab-5cd1d0dff3a42317e35339cab67b67c3.png"></a>
+
+<script defer type="text/javascript">
+var feedback_form = new App.Feedback("");
+jQuery('#feedbacker').bind('click', feedback_form.open);
+</script>
+
+
+</body>
+</html>

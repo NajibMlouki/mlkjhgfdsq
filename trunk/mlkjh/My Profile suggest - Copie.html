@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta charset="utf-8">
+<title>Mon Profile Doctunisie</title>
+
+
+
+
+<link rel="stylesheet" href="./css/shim.css">
+
+<link href="./css" media="screen" rel="stylesheet" type="text/css">
+<link href="./css/common-48b47f12185172f2d1859c37be61963a.css" media="all" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]><link href="https://db4z6a5e2pfi5.cloudfront.net/assets/assets_rails/standard_ie-c8073322d755e2f8867daa792ef89278.css" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+
+<script src="./js/application-ccb73cc251cb0b24f6438e07e16dc455.js" type="text/javascript"></script>
+<script src="./js/session_timeout-c47d6f257b3c811b3152305d21163696.js" type="text/javascript"></script>
+<link href="./css/profile-6730ed749bfaf808fb49a52c8315f243.css" media="screen" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+.fancybox-margin{margin-right:0px;}
+</style>
+
+
+
+
+
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div class="inner">
+      <p id="logoin"><a href="#"><img alt="Logo-onblack" src="./img/logo-doctunisie_00.png"></a></p>
+      <label id="navsearch" ontouchstart="">
+      <form accept-charset="UTF-8" action="/search" id="search_form" method="get">
+        <div style="margin:0;padding:0;display:inline">
+          <input name="utf8" type="hidden" value="✓">
+        </div>
+        <input class="findall" id="search" maxlength="300" name="q" placeholder="Search people, expertise" type="text">
+      </form>
+      <script defer type="text/javascript">
+jQuery('#search_form').on('submit', function(event) {
+if (event) { event.preventDefault(); }
+window.location.href = "/search#q=" + jQuery(this).find('input.findall').val();
+});
+</script>
+      </label>
+      <div id="nav"><a class="pullnav" href="/profile#">Menu</a>
+        <ul>
+          <li id="home_tab"><a href="/home" class="track_click" data-mixpanel-track="Home_NavClick" data-mixpanel-wait="true">Home</a></li>
+          <li id="colleagues_tab"><a href="/colleagues">Colleagues</a></li>
+          <li id="inbox_tab"><a href="/inbox" class="reserved_feature">Fax+Mail</a></li>
+          <li id="docnews_tab"><a href="/doc_news">DocNews</a><a href="/doc_news/unread_entries" class="doc_news_badge"><em class="badge"><span class="doc_news_badge_count">7</span></em></a></li>
+          <li id="groups_tab"><a href="/irounds">Groups</a>
+            <ul>
+              <li class="groupdir"><a href="/groups/directory"><img alt="Ico-group-directory" src="./img/ico-group-directory-4a6bb7ae07b37421135ed3c467b1e70e.png">Group Directory</a></li>
+            </ul>
+          </li>
+          <li class="here " id="profile_tab"><a href="#">Profile</a></li>
+          <li id="settings_tab"><a href="/settings"><img alt="Settings" src="./img/ico/ico-nav-settings-783d34c84b04c59263696bc9bbefb5a5.png"><span>Settings</span></a>
+            <ul>
+              <li class="pro-communications"><a href="/settings">Account &amp; Communication</a></li>
+              <li class="pro-honoraria"><a href="/career_preferences">Jobs &amp; Honoraria</a></li>
+              <li class="pro-privacy"><a href="/privacy_settings">Privacy</a></li>
+              <li class="pro-applications"><a href="/oauth/authorized_applications">Authorized Applications</a></li>
+              <li class="pro-docnews"><a href="/doc_news/proxies">DocNews Proxy</a></li>
+              <li class="pro-logout"><a href="/logout">Sign Out</a></li>
+            </ul>
+          </li>
+          <li id="signout_tab"><a href="/logout">Sign Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="page">
+    <div class="notice" data-sel-notice="" id="flash_notice" style="display:none">
+      <div class="inner"> <a href="/profile#" class="closer" onClick="document.getElementById(&#39;flash_notice&#39;).style.display = &#39;none&#39;; return false;" title="Dismiss"></a> <span id="flash_message"> </span> </div>
+    </div>
+    <div class="content grid editpro theprofile" data-account="{&quot;twitter&quot;:null,&quot;profile_photo_file&quot;:true,&quot;has_uploaded_profile_photo&quot;:true,&quot;photo&quot;:&quot;https://doximity-res.cloudinary.com/image/upload/t_profile_photo/v1392830815/tgshupgkdzcq5lvsulru.jpg&quot;,&quot;image_url&quot;:&quot;https://doximity-res.cloudinary.com/image/upload/t_profile_photo/v1392830815/tgshupgkdzcq5lvsulru.jpg&quot;,&quot;original_image_url&quot;:&quot;https://doximity-res.cloudinary.com/image/upload/v1392830815/tgshupgkdzcq5lvsulru.jpg&quot;,&quot;irounds_posts&quot;:0,&quot;groups&quot;:[]}" data-can-upload-cv="true" data-countries="[{&quot;name&quot;:&quot;United States&quot;,&quot;id&quot;:237},{&quot;name&quot;:&quot;Afghanistan&quot;,&quot;id&quot;:3},{&quot;name&quot;:&quot;Aland Islands&quot;,&quot;id&quot;:4},{&quot;name&quot;:&quot;Albania&quot;,&quot;id&quot;:5},{&quot;name&quot;:&quot;Algeria&quot;,&quot;id&quot;:6},{&quot;name&quot;:&quot;American Samoa&quot;,&quot;id&quot;:7},{&quot;name&quot;:&quot;Andorra&quot;,&quot;id&quot;:8},{&quot;name&quot;:&quot;Angola&quot;,&quot;id&quot;:9},{&quot;name&quot;:&quot;Anguilla&quot;,&quot;id&quot;:10},{&quot;name&quot;:&quot;Antarctica&quot;,&quot;id&quot;:11},{&quot;name&quot;:&quot;Antigua and Barbuda&quot;,&quot;id&quot;:12},{&quot;name&quot;:&quot;Argentina&quot;,&quot;id&quot;:13},{&quot;name&quot;:&quot;Armenia&quot;,&quot;id&quot;:14},{&quot;name&quot;:&quot;Aruba&quot;,&quot;id&quot;:15},{&quot;name&quot;:&quot;Australia&quot;,&quot;id&quot;:16},{&quot;name&quot;:&quot;Austria&quot;,&quot;id&quot;:17},{&quot;name&quot;:&quot;Azerbaijan&quot;,&quot;id&quot;:18},{&quot;name&quot;:&quot;Bahamas&quot;,&quot;id&quot;:19},{&quot;name&quot;:&quot;Bahrain&quot;,&quot;id&quot;:20},{&quot;name&quot;:&quot;Bangladesh&quot;,&quot;id&quot;:21},{&quot;name&quot;:&quot;Barbados&quot;,&quot;id&quot;:22},{&quot;name&quot;:&quot;Belarus&quot;,&quot;id&quot;:23},{&quot;name&quot;:&quot;Belgium&quot;,&quot;id&quot;:24},{&quot;name&quot;:&quot;Belize&quot;,&quot;id&quot;:25},{&quot;name&quot;:&quot;Benin&quot;,&quot;id&quot;:26},{&quot;name&quot;:&quot;Bermuda&quot;,&quot;id&quot;:27},{&quot;name&quot;:&quot;Bhutan&quot;,&quot;id&quot;:28},{&quot;name&quot;:&quot;Bolivia, Plurinational State of&quot;,&quot;id&quot;:29},{&quot;name&quot;:&quot;Bonaire, Saint Eustatius and Saba&quot;,&quot;id&quot;:30},{&quot;name&quot;:&quot;Bosnia and Herzegovina&quot;,&quot;id&quot;:31},{&quot;name&quot;:&quot;Botswana&quot;,&quot;id&quot;:32},{&quot;name&quot;:&quot;Bouvet Island&quot;,&quot;id&quot;:33},{&quot;name&quot;:&quot;Brazil&quot;,&quot;id&quot;:34},{&quot;name&quot;:&quot;British Indian Ocean Territory&quot;,&quot;id&quot;:35},{&quot;name&quot;:&quot;Brunei Darussalam&quot;,&quot;id&quot;:36},{&quot;name&quot;:&quot;Bulgaria&quot;,&quot;id&quot;:37},{&quot;name&quot;:&quot;Burkina Faso&quot;,&quot;id&quot;:38},{&quot;name&quot;:&quot;Burundi&quot;,&quot;id&quot;:39},{&quot;name&quot;:&quot;Cambodia&quot;,&quot;id&quot;:40},{&quot;name&quot;:&quot;Cameroon&quot;,&quot;id&quot;:41},{&quot;name&quot;:&quot;Canada&quot;,&quot;id&quot;:42},{&quot;name&quot;:&quot;Cape Verde&quot;,&quot;id&quot;:43},{&quot;name&quot;:&quot;Cayman Islands&quot;,&quot;id&quot;:44},{&quot;name&quot;:&quot;Central African Republic&quot;,&quot;id&quot;:45},{&quot;name&quot;:&quot;Chad&quot;,&quot;id&quot;:46},{&quot;name&quot;:&quot;Chile&quot;,&quot;id&quot;:47},{&quot;name&quot;:&quot;China&quot;,&quot;id&quot;:48},{&quot;name&quot;:&quot;Christmas Island&quot;,&quot;id&quot;:49},{&quot;name&quot;:&quot;Cocos (Keeling) Islands&quot;,&quot;id&quot;:50},{&quot;name&quot;:&quot;Colombia&quot;,&quot;id&quot;:51},{&quot;name&quot;:&quot;Comoros&quot;,&quot;id&quot;:52},{&quot;name&quot;:&quot;Congo&quot;,&quot;id&quot;:53},{&quot;name&quot;:&quot;Congo, the Democratic Republic of the&quot;,&quot;id&quot;:54},{&quot;name&quot;:&quot;Cook Islands&quot;,&quot;id&quot;:55},{&quot;name&quot;:&quot;Costa Rica&quot;,&quot;id&quot;:56},{&quot;name&quot;:&quot;Cote d&#39;Ivoire&quot;,&quot;id&quot;:57},{&quot;name&quot;:&quot;Croatia&quot;,&quot;id&quot;:58},{&quot;name&quot;:&quot;Cuba&quot;,&quot;id&quot;:59},{&quot;name&quot;:&quot;Curacao&quot;,&quot;id&quot;:60},{&quot;name&quot;:&quot;Cyprus&quot;,&quot;id&quot;:61},{&quot;name&quot;:&quot;Czech Republic&quot;,&quot;id&quot;:62},{&quot;name&quot;:&quot;Denmark&quot;,&quot;id&quot;:63},{&quot;name&quot;:&quot;Djibouti&quot;,&quot;id&quot;:64},{&quot;name&quot;:&quot;Dominica&quot;,&quot;id&quot;:65},{&quot;name&quot;:&quot;Dominican Republic&quot;,&quot;id&quot;:66},{&quot;name&quot;:&quot;Ecuador&quot;,&quot;id&quot;:67},{&quot;name&quot;:&quot;Egypt&quot;,&quot;id&quot;:68},{&quot;name&quot;:&quot;El Salvador&quot;,&quot;id&quot;:69},{&quot;name&quot;:&quot;Equatorial Guinea&quot;,&quot;id&quot;:70},{&quot;name&quot;:&quot;Eritrea&quot;,&quot;id&quot;:71},{&quot;name&quot;:&quot;Estonia&quot;,&quot;id&quot;:72},{&quot;name&quot;:&quot;Ethiopia&quot;,&quot;id&quot;:73},{&quot;name&quot;:&quot;Falkland Islands (Malvinas)&quot;,&quot;id&quot;:74},{&quot;name&quot;:&quot;Faroe Islands&quot;,&quot;id&quot;:75},{&quot;name&quot;:&quot;Fiji&quot;,&quot;id&quot;:76},{&quot;name&quot;:&quot;Finland&quot;,&quot;id&quot;:77},{&quot;name&quot;:&quot;France&quot;,&quot;id&quot;:78},{&quot;name&quot;:&quot;French Guiana&quot;,&quot;id&quot;:79},{&quot;name&quot;:&quot;French Polynesia&quot;,&quot;id&quot;:80},{&quot;name&quot;:&quot;French Southern Territories&quot;,&quot;id&quot;:81},{&quot;name&quot;:&quot;Gabon&quot;,&quot;id&quot;:82},{&quot;name&quot;:&quot;Gambia&quot;,&quot;id&quot;:83},{&quot;name&quot;:&quot;Georgia&quot;,&quot;id&quot;:84},{&quot;name&quot;:&quot;Germany&quot;,&quot;id&quot;:85},{&quot;name&quot;:&quot;Ghana&quot;,&quot;id&quot;:86},{&quot;name&quot;:&quot;Gibraltar&quot;,&quot;id&quot;:87},{&quot;name&quot;:&quot;Greece&quot;,&quot;id&quot;:88},{&quot;name&quot;:&quot;Greenland&quot;,&quot;id&quot;:89},{&quot;name&quot;:&quot;Grenada&quot;,&quot;id&quot;:90},{&quot;name&quot;:&quot;Guadeloupe&quot;,&quot;id&quot;:91},{&quot;name&quot;:&quot;Guam&quot;,&quot;id&quot;:92},{&quot;name&quot;:&quot;Guatemala&quot;,&quot;id&quot;:93},{&quot;name&quot;:&quot;Guernsey&quot;,&quot;id&quot;:94},{&quot;name&quot;:&quot;Guinea&quot;,&quot;id&quot;:95},{&quot;name&quot;:&quot;Guinea-Bissau&quot;,&quot;id&quot;:96},{&quot;name&quot;:&quot;Guyana&quot;,&quot;id&quot;:97},{&quot;name&quot;:&quot;Haiti&quot;,&quot;id&quot;:98},{&quot;name&quot;:&quot;Heard Island and McDonald Islands&quot;,&quot;id&quot;:99},{&quot;name&quot;:&quot;Holy See (Vatican City State)&quot;,&quot;id&quot;:100},{&quot;name&quot;:&quot;Honduras&quot;,&quot;id&quot;:101},{&quot;name&quot;:&quot;Hong Kong&quot;,&quot;id&quot;:102},{&quot;name&quot;:&quot;Hungary&quot;,&quot;id&quot;:103},{&quot;name&quot;:&quot;Iceland&quot;,&quot;id&quot;:104},{&quot;name&quot;:&quot;India&quot;,&quot;id&quot;:105},{&quot;name&quot;:&quot;Indonesia&quot;,&quot;id&quot;:106},{&quot;name&quot;:&quot;Iran, Islamic Republic of&quot;,&quot;id&quot;:107},{&quot;name&quot;:&quot;Iraq&quot;,&quot;id&quot;:108},{&quot;name&quot;:&quot;Ireland&quot;,&quot;id&quot;:109},{&quot;name&quot;:&quot;Isle of Man&quot;,&quot;id&quot;:110},{&quot;name&quot;:&quot;Israel&quot;,&quot;id&quot;:111},{&quot;name&quot;:&quot;Italy&quot;,&quot;id&quot;:112},{&quot;name&quot;:&quot;Jamaica&quot;,&quot;id&quot;:113},{&quot;name&quot;:&quot;Japan&quot;,&quot;id&quot;:114},{&quot;name&quot;:&quot;Jersey&quot;,&quot;id&quot;:115},{&quot;name&quot;:&quot;Jordan&quot;,&quot;id&quot;:116},{&quot;name&quot;:&quot;Kazakhstan&quot;,&quot;id&quot;:117},{&quot;name&quot;:&quot;Kenya&quot;,&quot;id&quot;:118},{&quot;name&quot;:&quot;Kiribati&quot;,&quot;id&quot;:119},{&quot;name&quot;:&quot;Korea, Democratic People&#39;s Republic of&quot;,&quot;id&quot;:120},{&quot;name&quot;:&quot;Korea, Republic of&quot;,&quot;id&quot;:121},{&quot;name&quot;:&quot;Kuwait&quot;,&quot;id&quot;:122},{&quot;name&quot;:&quot;Kyrgyzstan&quot;,&quot;id&quot;:123},{&quot;name&quot;:&quot;Lao People&#39;s Democratic Republic&quot;,&quot;id&quot;:124},{&quot;name&quot;:&quot;Latvia&quot;,&quot;id&quot;:125},{&quot;name&quot;:&quot;Lebanon&quot;,&quot;id&quot;:126},{&quot;name&quot;:&quot;Lesotho&quot;,&quot;id&quot;:127},{&quot;name&quot;:&quot;Liberia&quot;,&quot;id&quot;:128},{&quot;name&quot;:&quot;Libyan Arab Jamahiriya&quot;,&quot;id&quot;:129},{&quot;name&quot;:&quot;Liechtenstein&quot;,&quot;id&quot;:130},{&quot;name&quot;:&quot;Lithuania&quot;,&quot;id&quot;:131},{&quot;name&quot;:&quot;Luxembourg&quot;,&quot;id&quot;:132},{&quot;name&quot;:&quot;Macao&quot;,&quot;id&quot;:133},{&quot;name&quot;:&quot;Macedonia, the former Yugoslav Republic of&quot;,&quot;id&quot;:134},{&quot;name&quot;:&quot;Madagascar&quot;,&quot;id&quot;:135},{&quot;name&quot;:&quot;Malawi&quot;,&quot;id&quot;:136},{&quot;name&quot;:&quot;Malaysia&quot;,&quot;id&quot;:137},{&quot;name&quot;:&quot;Maldives&quot;,&quot;id&quot;:138},{&quot;name&quot;:&quot;Mali&quot;,&quot;id&quot;:139},{&quot;name&quot;:&quot;Malta&quot;,&quot;id&quot;:140},{&quot;name&quot;:&quot;Marshall Islands&quot;,&quot;id&quot;:141},{&quot;name&quot;:&quot;Martinique&quot;,&quot;id&quot;:142},{&quot;name&quot;:&quot;Mauritania&quot;,&quot;id&quot;:143},{&quot;name&quot;:&quot;Mauritius&quot;,&quot;id&quot;:144},{&quot;name&quot;:&quot;Mayotte&quot;,&quot;id&quot;:145},{&quot;name&quot;:&quot;Mexico&quot;,&quot;id&quot;:146},{&quot;name&quot;:&quot;Micronesia, Federated States of&quot;,&quot;id&quot;:147},{&quot;name&quot;:&quot;Moldova, Republic of&quot;,&quot;id&quot;:148},{&quot;name&quot;:&quot;Monaco&quot;,&quot;id&quot;:149},{&quot;name&quot;:&quot;Mongolia&quot;,&quot;id&quot;:150},{&quot;name&quot;:&quot;Montenegro&quot;,&quot;id&quot;:151},{&quot;name&quot;:&quot;Montserrat&quot;,&quot;id&quot;:152},{&quot;name&quot;:&quot;Morocco&quot;,&quot;id&quot;:153},{&quot;name&quot;:&quot;Mozambique&quot;,&quot;id&quot;:154},{&quot;name&quot;:&quot;Myanmar&quot;,&quot;id&quot;:155},{&quot;name&quot;:&quot;Namibia&quot;,&quot;id&quot;:156},{&quot;name&quot;:&quot;Nauru&quot;,&quot;id&quot;:157},{&quot;name&quot;:&quot;Nepal&quot;,&quot;id&quot;:158},{&quot;name&quot;:&quot;Netherlands&quot;,&quot;id&quot;:159},{&quot;name&quot;:&quot;New Caledonia&quot;,&quot;id&quot;:160},{&quot;name&quot;:&quot;New Zealand&quot;,&quot;id&quot;:161},{&quot;name&quot;:&quot;Nicaragua&quot;,&quot;id&quot;:162},{&quot;name&quot;:&quot;Niger&quot;,&quot;id&quot;:163},{&quot;name&quot;:&quot;Nigeria&quot;,&quot;id&quot;:164},{&quot;name&quot;:&quot;Niue&quot;,&quot;id&quot;:165},{&quot;name&quot;:&quot;Norfolk Island&quot;,&quot;id&quot;:166},{&quot;name&quot;:&quot;Northern Mariana Islands&quot;,&quot;id&quot;:167},{&quot;name&quot;:&quot;Norway&quot;,&quot;id&quot;:168},{&quot;name&quot;:&quot;Oman&quot;,&quot;id&quot;:169},{&quot;name&quot;:&quot;Pakistan&quot;,&quot;id&quot;:170},{&quot;name&quot;:&quot;Palau&quot;,&quot;id&quot;:171},{&quot;name&quot;:&quot;Palestinian Territory, Occupied&quot;,&quot;id&quot;:172},{&quot;name&quot;:&quot;Panama&quot;,&quot;id&quot;:173},{&quot;name&quot;:&quot;Papua New Guinea&quot;,&quot;id&quot;:174},{&quot;name&quot;:&quot;Paraguay&quot;,&quot;id&quot;:175},{&quot;name&quot;:&quot;Peru&quot;,&quot;id&quot;:176},{&quot;name&quot;:&quot;Philippines&quot;,&quot;id&quot;:177},{&quot;name&quot;:&quot;Pitcairn&quot;,&quot;id&quot;:178},{&quot;name&quot;:&quot;Poland&quot;,&quot;id&quot;:179},{&quot;name&quot;:&quot;Portugal&quot;,&quot;id&quot;:180},{&quot;name&quot;:&quot;Qatar&quot;,&quot;id&quot;:182},{&quot;name&quot;:&quot;Reunion&quot;,&quot;id&quot;:183},{&quot;name&quot;:&quot;Romania&quot;,&quot;id&quot;:184},{&quot;name&quot;:&quot;Russian Federation&quot;,&quot;id&quot;:185},{&quot;name&quot;:&quot;Rwanda&quot;,&quot;id&quot;:186},{&quot;name&quot;:&quot;Saint Barthelemy&quot;,&quot;id&quot;:187},{&quot;name&quot;:&quot;Saint Helena, Ascension and Tristan da Cunha&quot;,&quot;id&quot;:188},{&quot;name&quot;:&quot;Saint Kitts and Nevis&quot;,&quot;id&quot;:189},{&quot;name&quot;:&quot;Saint Lucia&quot;,&quot;id&quot;:190},{&quot;name&quot;:&quot;Saint Martin (French part)&quot;,&quot;id&quot;:191},{&quot;name&quot;:&quot;Saint Pierre and Miquelon&quot;,&quot;id&quot;:192},{&quot;name&quot;:&quot;Saint Vincent and the Grenadines&quot;,&quot;id&quot;:193},{&quot;name&quot;:&quot;Samoa&quot;,&quot;id&quot;:194},{&quot;name&quot;:&quot;San Marino&quot;,&quot;id&quot;:195},{&quot;name&quot;:&quot;Sao Tome and Principe&quot;,&quot;id&quot;:196},{&quot;name&quot;:&quot;Saudi Arabia&quot;,&quot;id&quot;:197},{&quot;name&quot;:&quot;Senegal&quot;,&quot;id&quot;:198},{&quot;name&quot;:&quot;Serbia&quot;,&quot;id&quot;:199},{&quot;name&quot;:&quot;Seychelles&quot;,&quot;id&quot;:200},{&quot;name&quot;:&quot;Sierra Leone&quot;,&quot;id&quot;:201},{&quot;name&quot;:&quot;Singapore&quot;,&quot;id&quot;:202},{&quot;name&quot;:&quot;Saint Maarten (Dutch part)&quot;,&quot;id&quot;:203},{&quot;name&quot;:&quot;Slovakia&quot;,&quot;id&quot;:204},{&quot;name&quot;:&quot;Slovenia&quot;,&quot;id&quot;:205},{&quot;name&quot;:&quot;Solomon Islands&quot;,&quot;id&quot;:206},{&quot;name&quot;:&quot;Somalia&quot;,&quot;id&quot;:207},{&quot;name&quot;:&quot;South Africa&quot;,&quot;id&quot;:208},{&quot;name&quot;:&quot;South Georgia and the South Sandwich Islands&quot;,&quot;id&quot;:209},{&quot;name&quot;:&quot;Spain&quot;,&quot;id&quot;:210},{&quot;name&quot;:&quot;Sri Lanka&quot;,&quot;id&quot;:211},{&quot;name&quot;:&quot;Sudan&quot;,&quot;id&quot;:212},{&quot;name&quot;:&quot;Suriname&quot;,&quot;id&quot;:213},{&quot;name&quot;:&quot;Svalbard and Jan Mayen&quot;,&quot;id&quot;:214},{&quot;name&quot;:&quot;Swaziland&quot;,&quot;id&quot;:215},{&quot;name&quot;:&quot;Sweden&quot;,&quot;id&quot;:216},{&quot;name&quot;:&quot;Switzerland&quot;,&quot;id&quot;:217},{&quot;name&quot;:&quot;Syrian Arab Republic&quot;,&quot;id&quot;:218},{&quot;name&quot;:&quot;Taiwan, Province of China&quot;,&quot;id&quot;:219},{&quot;name&quot;:&quot;Tajikistan&quot;,&quot;id&quot;:220},{&quot;name&quot;:&quot;Tanzania, United Republic of&quot;,&quot;id&quot;:221},{&quot;name&quot;:&quot;Thailand&quot;,&quot;id&quot;:222},{&quot;name&quot;:&quot;Timor-Leste&quot;,&quot;id&quot;:223},{&quot;name&quot;:&quot;Togo&quot;,&quot;id&quot;:224},{&quot;name&quot;:&quot;Tokelau&quot;,&quot;id&quot;:225},{&quot;name&quot;:&quot;Tonga&quot;,&quot;id&quot;:226},{&quot;name&quot;:&quot;Trinidad and Tobago&quot;,&quot;id&quot;:227},{&quot;name&quot;:&quot;Tunisia&quot;,&quot;id&quot;:228},{&quot;name&quot;:&quot;Turkey&quot;,&quot;id&quot;:229},{&quot;name&quot;:&quot;Turkmenistan&quot;,&quot;id&quot;:230},{&quot;name&quot;:&quot;Turks and Caicos Islands&quot;,&quot;id&quot;:231},{&quot;name&quot;:&quot;Tuvalu&quot;,&quot;id&quot;:232},{&quot;name&quot;:&quot;Uganda&quot;,&quot;id&quot;:233},{&quot;name&quot;:&quot;Ukraine&quot;,&quot;id&quot;:234},{&quot;name&quot;:&quot;United Arab Emirates&quot;,&quot;id&quot;:235},{&quot;name&quot;:&quot;United Kingdom&quot;,&quot;id&quot;:236},{&quot;name&quot;:&quot;United States Minor Outlying Islands&quot;,&quot;id&quot;:238},{&quot;name&quot;:&quot;Uruguay&quot;,&quot;id&quot;:239},{&quot;name&quot;:&quot;Uzbekistan&quot;,&quot;id&quot;:240},{&quot;name&quot;:&quot;Vanuatu&quot;,&quot;id&quot;:241},{&quot;name&quot;:&quot;Venezuela, Bolivarian Republic of&quot;,&quot;id&quot;:242},{&quot;name&quot;:&quot;Viet Nam&quot;,&quot;id&quot;:243},{&quot;name&quot;:&quot;Virgin Islands, British&quot;,&quot;id&quot;:244},{&quot;name&quot;:&quot;Virgin Islands, U.S.&quot;,&quot;id&quot;:245},{&quot;name&quot;:&quot;Wallis and Futuna&quot;,&quot;id&quot;:246},{&quot;name&quot;:&quot;Western Sahara&quot;,&quot;id&quot;:247},{&quot;name&quot;:&quot;Yemen&quot;,&quot;id&quot;:248},{&quot;name&quot;:&quot;Zambia&quot;,&quot;id&quot;:249},{&quot;name&quot;:&quot;Zimbabwe&quot;,&quot;id&quot;:250}]" data-current-user-id="5994749" data-cv-url="https://api.cloudinary.com/v1_1/doximity/auto/upload" data-cv="{&quot;timestamp&quot;:1392831566,&quot;callback&quot;:&quot;/attachinary/cors&quot;,&quot;tags&quot;:&quot;production_env,attachinary_tmp&quot;,&quot;signature&quot;:&quot;01152d4e880bd214f139f00e6590405d12c208b7&quot;,&quot;api_key&quot;:&quot;913684926126191&quot;}" data-is-admin="false" data-mutual-colleagues-count="0" data-presentations-cloudinary="{&quot;url&quot;:&quot;https://api.cloudinary.com/v1_1/doximity/raw/upload&quot;,&quot;data&quot;:{&quot;timestamp&quot;:1392831566,&quot;callback&quot;:&quot;/attachinary/cors&quot;,&quot;tags&quot;:&quot;production_env,attachinary_tmp&quot;,&quot;signature&quot;:&quot;01152d4e880bd214f139f00e6590405d12c208b7&quot;,&quot;api_key&quot;:&quot;913684926126191&quot;}}" data-presentations-pusher="6571ade393df41fad67f" data-private-info="{&quot;back_office&quot;:null,&quot;mobilephone&quot;:null,&quot;phone2&quot;:null,&quot;email&quot;:null,&quot;pager&quot;:null,&quot;paging_service&quot;:null,&quot;admit_number&quot;:null,&quot;other_phone&quot;:null,&quot;other_email&quot;:null,&quot;note&quot;:null,&quot;home_phone&quot;:null}" data-profile-ftue-constants="{&quot;default_tips&quot;:[&quot;photo_suggest&quot;,&quot;recruiter&quot;,&quot;consulting_preferences&quot;,&quot;clinical_interests&quot;,&quot;hospital_affiliations&quot;,&quot;title&quot;,&quot;training&quot;,&quot;work_history&quot;,&quot;publications&quot;,&quot;summary&quot;,&quot;languages&quot;],&quot;default_rotations&quot;:{&quot;physician&quot;:[&quot;photo_suggest&quot;,&quot;recruiter&quot;,&quot;consulting_preferences&quot;,&quot;clinical_interests&quot;,&quot;hospital_affiliations&quot;,&quot;title&quot;,&quot;training&quot;,&quot;work_history&quot;,&quot;publications&quot;],&quot;specialists&quot;:[&quot;photo_suggest&quot;,&quot;recruiter&quot;,&quot;consulting_preferences&quot;,&quot;clinical_interests&quot;,&quot;hospital_affiliations&quot;,&quot;title&quot;,&quot;training&quot;,&quot;work_history&quot;,&quot;publications&quot;,&quot;summary&quot;,&quot;languages&quot;],&quot;other_physician&quot;:[&quot;photo_suggest&quot;,&quot;recruiter&quot;,&quot;clinical_interests&quot;,&quot;hospital_affiliations&quot;,&quot;title&quot;,&quot;training&quot;,&quot;work_history&quot;,&quot;publications&quot;],&quot;med_student&quot;:[&quot;photo_suggest&quot;,&quot;clinical_interests&quot;,&quot;title&quot;,&quot;work_history&quot;,&quot;publications&quot;],&quot;ohcp&quot;:[&quot;photo_suggest&quot;,&quot;clinical_interests&quot;,&quot;hospital_affiliations&quot;,&quot;title&quot;,&quot;work_history&quot;,&quot;publications&quot;,&quot;summary&quot;]}}" data-profile-ftue="{&quot;id&quot;:133321,&quot;tips&quot;:[[&quot;clinical_interests&quot;,1],[&quot;training&quot;,0],[&quot;consulting_preferences&quot;,0],[&quot;summary&quot;,0]]}" data-profile-photo-accept-format="[&quot;jpg&quot;, &quot;gif&quot;, &quot;png&quot;]" data-profile-photo-accept="image/jpeg,image/gif,image/png" data-profile-photo-url="https://api.cloudinary.com/v1_1/doximity/image/upload" data-profile-photo="{&quot;timestamp&quot;:1392831566,&quot;callback&quot;:&quot;/attachinary/cors&quot;,&quot;eager&quot;:&quot;t_profile_photo&quot;,&quot;tags&quot;:&quot;production_env,attachinary_tmp&quot;,&quot;signature&quot;:&quot;14d672e9714369db967d102a891fd577d915512c&quot;,&quot;api_key&quot;:&quot;913684926126191&quot;}" data-roles="[]" data-sel-myprofile="" data-user="{&quot;id&quot;:5994749,&quot;firstname&quot;:&quot;Mlouki&quot;,&quot;middlename&quot;:null,&quot;lastname&quot;:&quot;Harun&quot;,&quot;city&quot;:&quot;Manassas&quot;,&quot;zip&quot;:&quot;20113&quot;,&quot;addr1&quot;:&quot;Tunisia&quot;,&quot;addr2&quot;:null,&quot;phone&quot;:null,&quot;phone_ext&quot;:&quot;&quot;,&quot;fax&quot;:null,&quot;description&quot;:&quot;General Allergy &amp; Immunology&quot;,&quot;credentials&quot;:4,&quot;lastnameother&quot;:null,&quot;additional_credentials&quot;:null,&quot;namesuffix&quot;:null,&quot;seo_doctor&quot;:null,&quot;other_users_info&quot;:{&quot;blogLink1_type&quot;:null,&quot;blogLink1_value&quot;:null,&quot;blogLink2_type&quot;:null,&quot;blogLink2_value&quot;:null,&quot;blogLink3_type&quot;:null,&quot;blogLink3_value&quot;:null,&quot;boardcertsaffiliations&quot;:null,&quot;created_at&quot;:&quot;2014-01-02T14:21:07Z&quot;,&quot;id&quot;:5303043,&quot;memberships&quot;:null,&quot;publications&quot;:null,&quot;updated_at&quot;:&quot;2014-01-02T14:21:07Z&quot;},&quot;user_professional_detail&quot;:{&quot;acceptnewpatients&quot;:false,&quot;created_at&quot;:&quot;2014-01-02T14:21:07Z&quot;,&quot;faculty_flag&quot;:false,&quot;id&quot;:5836667,&quot;other&quot;:null,&quot;primaryclinicalinterest&quot;:null,&quot;specialty_id&quot;:&quot;AM00&quot;,&quot;takingreferrals&quot;:false,&quot;updated_at&quot;:&quot;2014-01-02T14:59:19Z&quot;},&quot;summary&quot;:null,&quot;work_histories&quot;:[{&quot;id&quot;:99805,&quot;title&quot;:&quot;Allergy Physician&quot;,&quot;company&quot;:&quot;Physician University of Tunisia&quot;,&quot;department&quot;:null,&quot;state&quot;:&quot;TN&quot;,&quot;city&quot;:&quot;Tunis&quot;,&quot;start_year&quot;:1998,&quot;end_year&quot;:2005,&quot;description&quot;:null}],&quot;industry_relations&quot;:[],&quot;lat&quot;:0.0,&quot;lon&quot;:0.0,&quot;committees&quot;:[],&quot;research_histories&quot;:[],&quot;subspecialties&quot;:[{&quot;code&quot;:&quot;AM01&quot;,&quot;name&quot;:&quot;General Allergy &amp; Immunology&quot;,&quot;id&quot;:&quot;AM01&quot;}],&quot;research_interests&quot;:[],&quot;cvs&quot;:[],&quot;insurers&quot;:[{&quot;created_at&quot;:&quot;2012-11-09T23:37:43Z&quot;,&quot;id&quot;:7,&quot;name&quot;:&quot;AmeriHealth Direct POS Value Network&quot;,&quot;shortName&quot;:&quot;AmeriHealth Direct POS Value Network&quot;,&quot;updated_at&quot;:&quot;2012-11-09T23:37:43Z&quot;},{&quot;created_at&quot;:&quot;2012-11-09T23:37:43Z&quot;,&quot;id&quot;:11,&quot;name&quot;:&quot;AmeriHealth PPO Value Network&quot;,&quot;shortName&quot;:&quot;AmeriHealth PPO Value Network&quot;,&quot;updated_at&quot;:&quot;2012-11-09T23:37:43Z&quot;},{&quot;created_at&quot;:&quot;2012-11-09T23:37:43Z&quot;,&quot;id&quot;:65,&quot;name&quot;:&quot;Coventry Florida - Employer Group HMO/Open Access&quot;,&quot;shortName&quot;:&quot;Coventry Florida - Employer Group HMO/Open Access&quot;,&quot;updated_at&quot;:&quot;2012-11-09T23:37:43Z&quot;}],&quot;user_memberships&quot;:[],&quot;professional_interests&quot;:[{&quot;id&quot;:8,&quot;name&quot;:&quot;patient referrals&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;personal reference requests&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;research collaboration&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;consulting offers&quot;},{&quot;id&quot;:1,&quot;name&quot;:&quot;career opportunities&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;expertise requests&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;requests to reconnect&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;speaking engagements&quot;}],&quot;complete_your_profile_fields&quot;:[{&quot;name&quot;:&quot;private_contact_info&quot;,&quot;title&quot;:&quot;Private Contact Info&quot;,&quot;percent&quot;:8},{&quot;name&quot;:&quot;pubmed_bibliography&quot;,&quot;title&quot;:&quot;Published Works&quot;,&quot;percent&quot;:8}],&quot;profile_completeness_in_percent&quot;:85,&quot;npi&quot;:null,&quot;account_id&quot;:338339,&quot;inbound_fax_number&quot;:null,&quot;user_verification&quot;:{&quot;attempts&quot;:0,&quot;created_at&quot;:&quot;2014-01-02T14:24:40Z&quot;,&quot;doximity_questions&quot;:null,&quot;govid_content_type&quot;:null,&quot;govid_file_name&quot;:null,&quot;govid_file_size&quot;:null,&quot;govid_updated_at&quot;:null,&quot;graduation_years&quot;:&quot;2002,2004,2008,2009&quot;,&quot;id&quot;:2685809,&quot;idology_questions&quot;:null,&quot;medical_schools&quot;:&quot;9534,8291,8287,8480&quot;,&quot;medid_content_type&quot;:null,&quot;medid_file_name&quot;:null,&quot;medid_file_size&quot;:null,&quot;medid_updated_at&quot;:null,&quot;state&quot;:&quot;ignored&quot;,&quot;token&quot;:&quot;1baaa493ab387ba371f10add47ff0b67&quot;,&quot;updated_at&quot;:&quot;2014-01-02T23:58:17Z&quot;,&quot;user_id&quot;:5994749,&quot;verification_email_sent&quot;:&quot;2014-01-02T14:24:40Z&quot;,&quot;verified_at&quot;:null},&quot;created_at&quot;:&quot;2014-01-02T14:21:07Z&quot;,&quot;updated_at&quot;:&quot;2014-02-19T17:39:20Z&quot;,&quot;colleagues_count&quot;:19,&quot;medical_school&quot;:{&quot;award&quot;:null,&quot;created_at&quot;:&quot;2014-01-02T14:23:51Z&quot;,&quot;degree&quot;:null,&quot;end_year&quot;:2008,&quot;id&quot;:4390789,&quot;institution_id&quot;:9534,&quot;program_id&quot;:null,&quot;start_year&quot;:null,&quot;updated_at&quot;:&quot;2014-01-02T14:23:51Z&quot;,&quot;user_id&quot;:5994749,&quot;institution&quot;:{&quot;address&quot;:null,&quot;city_id&quot;:null,&quot;consortium_id&quot;:null,&quot;country_id&quot;:228,&quot;created_at&quot;:&quot;2012-12-26T20:54:24Z&quot;,&quot;id&quot;:9534,&quot;lat&quot;:35.5175,&quot;logo_content_type&quot;:&quot;image/jpeg&quot;,&quot;logo_file_name&quot;:&quot;1419.jpg&quot;,&quot;logo_file_size&quot;:1554,&quot;logo_updated_at&quot;:&quot;2012-12-27T09:32:59Z&quot;,&quot;lon&quot;:-86.5804,&quot;long_name&quot;:&quot;National School of Science- Tunisia Faculty of Medicine&quot;,&quot;name&quot;:&quot;Natl Sch Sci- Tunisia- Fac Med&quot;,&quot;source&quot;:&quot;AMA&quot;,&quot;source_id&quot;:&quot;1419&quot;,&quot;state_id&quot;:null,&quot;type&quot;:&quot;MedicalSchool&quot;,&quot;updated_at&quot;:&quot;2012-12-27T09:32:59Z&quot;,&quot;zip_code_id&quot;:null,&quot;logo_url&quot;:&quot;https://doximity-res.cloudinary.com/image/upload/v1376942810/yf5p9fglowsdft1mhacu.jpg&quot;}},&quot;pa_school&quot;:null,&quot;locations&quot;:[],&quot;languages&quot;:[{&quot;id&quot;:12,&quot;ordNum&quot;:12,&quot;name&quot;:&quot;Arabic&quot;},{&quot;id&quot;:4,&quot;ordNum&quot;:4,&quot;name&quot;:&quot;French&quot;}],&quot;hospitals&quot;:[{&quot;additional_info&quot;:null,&quot;address&quot;:&quot;1301 North Race Street&quot;,&quot;affiliate&quot;:null,&quot;beds&quot;:196,&quot;city&quot;:&quot;Glasgow&quot;,&quot;city_id&quot;:112769,&quot;created_at&quot;:null,&quot;fax&quot;:&quot;2706514848&quot;,&quot;hours&quot;:null,&quot;id&quot;:2323,&quot;lat&quot;:37.0108,&quot;logo_url&quot;:null,&quot;lon&quot;:-85.9034,&quot;name&quot;:&quot;T.J. Samson Community Hospital&quot;,&quot;phone&quot;:&quot;2706514444&quot;,&quot;services&quot;:null,&quot;short_name&quot;:&quot;T J Samson Comm Hosp&quot;,&quot;source&quot;:&quot;H&quot;,&quot;state&quot;:&quot;KY&quot;,&quot;typeId&quot;:1,&quot;updated_at&quot;:&quot;2013-07-29T17:42:58Z&quot;,&quot;version&quot;:0,&quot;web&quot;:null,&quot;zip&quot;:&quot;42141&quot;},{&quot;additional_info&quot;:null,&quot;address&quot;:&quot;510 West Tidwell Road&quot;,&quot;affiliate&quot;:null,&quot;beds&quot;:220,&quot;city&quot;:&quot;Houston&quot;,&quot;city_id&quot;:125219,&quot;created_at&quot;:null,&quot;fax&quot;:&quot;7136953747&quot;,&quot;hours&quot;:null,&quot;id&quot;:5632,&quot;lat&quot;:29.8473,&quot;logo_url&quot;:null,&quot;lon&quot;:-95.4069,&quot;name&quot;:&quot;Doctor&#39;s Hospital-Tidwell&quot;,&quot;phone&quot;:&quot;7136911111&quot;,&quot;services&quot;:null,&quot;short_name&quot;:&quot;Doctors Hosp-Tidwell&quot;,&quot;source&quot;:&quot;H&quot;,&quot;state&quot;:&quot;TX&quot;,&quot;typeId&quot;:1,&quot;updated_at&quot;:&quot;2013-07-29T17:42:58Z&quot;,&quot;version&quot;:0,&quot;web&quot;:null,&quot;zip&quot;:&quot;77091&quot;}],&quot;training&quot;:[],&quot;honors&quot;:[],&quot;certifications&quot;:[],&quot;medical_licenses&quot;:[],&quot;physician_assistant_licenses&quot;:[],&quot;mesh_interests&quot;:[],&quot;clinical_trials&quot;:[],&quot;publications&quot;:[{&quot;book_title&quot;:null,&quot;chapter_title&quot;:null,&quot;day&quot;:&quot;1&quot;,&quot;edition&quot;:null,&quot;editors&quot;:null,&quot;ext_id&quot;:null,&quot;from_page&quot;:null,&quot;id&quot;:10097057,&quot;location&quot;:null,&quot;month&quot;:&quot;1&quot;,&quot;notified_at&quot;:null,&quot;prepopulated&quot;:false,&quot;publication_location&quot;:null,&quot;publication_name&quot;:null,&quot;publication_type&quot;:&quot;journal_articles&quot;,&quot;published_at&quot;:null,&quot;published_status&quot;:&quot;in_press&quot;,&quot;publisher&quot;:null,&quot;pubmed_date&quot;:null,&quot;pubmed_date_norm&quot;:null,&quot;sort_order&quot;:&quot;2005-01-01&quot;,&quot;source&quot;:null,&quot;to_page&quot;:null,&quot;url&quot;:null,&quot;user_id&quot;:5994749,&quot;year&quot;:&quot;2005&quot;,&quot;authors&quot;:&quot;Dr Harun&quot;,&quot;journal&quot;:&quot;Times&quot;,&quot;title&quot;:&quot;How to prevent Allergy&#39;s Causes&quot;}],&quot;ipas&quot;:[],&quot;med_groups&quot;:[{&quot;id&quot;:3461,&quot;name&quot;:&quot;James H Sternberg&quot;,&quot;state&quot;:&quot;CA&quot;},{&quot;id&quot;:3815,&quot;name&quot;:&quot;Mother&#39;s &amp; Daughter&#39;s Center&quot;,&quot;state&quot;:&quot;CA&quot;}],&quot;registered&quot;:true,&quot;support_grants&quot;:[],&quot;professional_memberships&quot;:[{&quot;id&quot;:457921,&quot;other_association&quot;:null,&quot;professional_association_id&quot;:54,&quot;title&quot;:&quot;Member&quot;,&quot;user_id&quot;:5994749,&quot;logo_url&quot;:&quot;/assets/associations/aacap.png&quot;,&quot;professional_association_name&quot;:&quot;American Academy of Child and Adolescent Psychiatry - AACAP&quot;,&quot;url&quot;:&quot;http://www.aacap.org/&quot;},{&quot;id&quot;:457923,&quot;other_association&quot;:null,&quot;professional_association_id&quot;:1,&quot;title&quot;:&quot;Member&quot;,&quot;user_id&quot;:5994749,&quot;logo_url&quot;:&quot;/assets/awards/FAAAAI.jpg&quot;,&quot;professional_association_name&quot;:&quot;American Academy of Allergy Asthma and Immunology - AAAAI&quot;,&quot;url&quot;:&quot;http://www.aaaai.org/&quot;}],&quot;user_professional_details_subspecialties&quot;:[{&quot;created_at&quot;:&quot;2014-01-02T14:21:07Z&quot;,&quot;id&quot;:4153195,&quot;other&quot;:null,&quot;subspecialties_code&quot;:&quot;AM01&quot;,&quot;user_professional_details_id&quot;:5836667}],&quot;state&quot;:&quot;VA&quot;,&quot;state_id&quot;:62,&quot;country_id&quot;:237,&quot;country&quot;:&quot;United States&quot;,&quot;specialty&quot;:&quot;Allergy &amp; Immunology&quot;,&quot;irounds_enabled&quot;:false,&quot;photo_dummy&quot;:&quot;https://db4z6a5e2pfi5.cloudfront.net/assets/profile_pictures/mh-registered-yellow.png&quot;,&quot;settings&quot;:{}}" data-vendor-emails="[]" id="myprofile">
+      <div class="tophead">
+        <div class="levelup">
+          <fieldset class="sansindent">
+          <h2>What are your clinical interests?</h2>
+          <h3>This helps us bring you medical news most relevant to your practice.</h3>
+          <div class="listomatic">
+            <label class="enteredlist">
+            <input type="checkbox" checked="true">
+            Food Hypersensitivity </label>
+            <label class="enteredlist">
+            <input type="checkbox" checked="true">
+            Seasonal Allergies </label>
+            <label class="enteredlist">
+            <input type="checkbox" checked="true">
+            Atopic Dermatitis </label>
+            <label class="enteredlist">
+            <input type="checkbox" checked="true">
+            Allergen Immunotherapy </label>
+            <label class="enteredlist">
+            <input type="checkbox" checked="true">
+            Asthma </label>
+            <label class="enteredlist">
+            <input type="checkbox" checked="true">
+            Hereditary Angioedema (HAE) </label>
+          </div>
+          <div class="clear"></div>
+          <p class="buttonset">
+            <button class="btn yellow save" type="button">Done</button>
+            <a href="/profile#" data-dialog="{ &quot;title&quot;: &quot;Specify Specialty, Sub-specialties and Clinical/Reasearch Interests&quot;, &quot;url&quot;: &quot;/profiles/5994749/mesh_interest/edit&quot; }">Add Others</a> </p>
+          </fieldset>
+          <a class="close dismiss"></a> </div>
+      </div>
+      <div id="prohead" data-rendered="profile_unverified">
+        <div class="col-3-4">
+          <div id="show_header_app">
+            <div id="photo_section"> <a href="https://doximity-res.cloudinary.com/image/upload/v1392830815/tgshupgkdzcq5lvsulru.jpg" class="popup_image"> <img height="80" src="./img/ico/tgshupgkdzcq5lvsulru.jpg" width="80" alt="Profile Photo"> </a> <small class="editlinks"> <a href="/profile#" id="add_photo" class="nag add_photo change" title="Change Photo">Edit Photo</a> </small>  </div>
+            <div class="proname"> <small class="editlinks"> <a href="/profile#" class="undefined edit_name add" data-dialog="{ &quot;title&quot;: &quot;Name &amp; Occupation&quot;, &quot;url&quot;: &quot;/profiles/5994749/basic/edit&quot; }" original-title="Edit name, occupation, additional credentials">Edit</a> </small>
+              <h1> <span id="user_full_name">Mlouki Harun, MD</span><span id="user_additional_credentals"></span> </h1>
+              <h2> <span class="grn" id="header_specialty"> Allergy &amp; Immunology&nbsp; </span> <span class="user_city">Manassas</span>,&nbsp;<span class="user_state">VA</span> </h2>
+              <h3 id="user_description_section"> General Allergy &amp; Immunology
+                
+                &nbsp; </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-4">
+          <div class="contactbar">
+            <div id="cvs" class="actbtn"> </div>
+          </div>
+        </div>
+        <ul id="pronav" class="col-3-4">
+          <li id="vanityProfiler"><small id="public_profile_link_block"> <a href="/profile#" class="edit">Edit</a> </small> </li>
+          <li class="pro-profile here"> <a href="./img/ico/My Profile on Doximity_suggest.htm">My Profile</a> </li>
+          <li class="pro-colleagues"> <a href="/colleagues"><strong>19</strong> Colleagues</a> </li>
+        </ul>
+      </div>
+      <div class="profiler">
+        <div class="col-1-4 procontact">
+          <div id="completeness" class="completeness">
+            <div id="profile_completeness_in_percent">
+              <p>Profile Completeness</p>
+              <div class="progressbar">
+                <div class="progress" style="width:85%;"> <small> 85 % </small> </div>
+              </div>
+              <ul>
+                <li> <em>+8%</em> <a href="/profile#" id="complete_private_contact_info"> Add
+                  Private Contact Info </a> </li>
+                <li> <em>+8%</em> <a href="/profile#" id="complete_pubmed_bibliography"> Add
+                  Published Works </a> </li>
+              </ul>
+            </div>
+          </div>
+          <div id="show_public_app">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="Add Office Location">Add</a> </small>
+              <h2>Office Info</h2>
+              <ul class="locations">
+                <li> <small class="editlinks"> <a href="/profile#" id="office_info_edit" class="edit">Edit</a> </small> Tunisia<br>
+                  Manassas, VA 20113 </li>
+              </ul>
+            </div>
+          </div>
+          <div id="locations"></div>
+          <div id="show_private_app">
+            <div class="editbox"> <small class="editlinks"><a href="/profile#" class="add" original-title="">Add</a></small>
+              <h2 class="nowrap">Private Info</h2>
+            </div>
+          </div>
+          <div id="show_pymk_app" data-sel-pymksuggestions="">
+            <h2> <a href="/colleagues#peopleyoumayknow">People You May Know</a> </h2>
+            <div id="pymklist" data-sel-pymk="">
+              <li class="pymk_sb_h header"><strong>People You May Know</strong></li>
+              <li class="pymk_sb person"><img src="./img/ico/s92gpkwvwezd9p6yijgq.jpg" alt="Steven House, MD"> <a href="/profile/346463/a/colleague" class="strong"> Steven House, MD </a> <br>
+                <span class="grn"> FP </span> Glasgow, KY <a class="addcoll" href="/profile#"> <span>Add Colleague</span> <img alt="Ico-add" src="./img/ico/ico-add-d6f62ca873fe3d193adcb0aced916990.png" title="Add Colleague"> </a> </li>
+              <li class="pymk_sb person"><img src="./img/ico/kdyojhbnz3nijytiyjcj.jpg" alt="Timothy Hulsey, MD"> <a href="/profile/349709/a/colleague" class="strong"> Timothy Hulsey, MD </a> <br>
+                <span class="grn"> Plastics </span> Bowling Green, KY <a class="addcoll" href="/profile#"> <span>Add Colleague</span> <img alt="Ico-add" src="./img/ico/ico-add-d6f62ca873fe3d193adcb0aced916990.png" title="Add Colleague"> </a> </li>
+              <li class="pymk_sb person"><img src="./img/ico/egwutpgsr8nyicxawzfh.jpg" alt="Scott Sims, MD"> <a href="/profile/408874/a/colleague" class="strong"> Scott Sims, MD </a> <br>
+                <span class="grn"> Nephro </span> Bowling Green, KY <a class="addcoll" href="/profile#"> <span>Add Colleague</span> <img alt="Ico-add" src="./img/ico/ico-add-d6f62ca873fe3d193adcb0aced916990.png" title="Add Colleague"> </a> </li>
+              <li class="pymk_sb person"><img src="./img/ico/dxqjb2zyikzio0phxb4d.jpg" alt="Roger Williams, MD"> <a href="/profile/482915/a/colleague" class="strong"> Roger Williams, MD </a> <br>
+                <span class="grn"> FP </span> Cave City, KY <a class="addcoll" href="/profile#"> <span>Add Colleague</span> <img alt="Ico-add" src="./img/ico/ico-add-d6f62ca873fe3d193adcb0aced916990.png" title="Add Colleague"> </a> </li>
+              <li class="pymk_sb person"><img src="./img/ico/g0dfa4eyrei5z9yeaoea.png" alt="Salim Lakhani, MD"> <a href="/profile/618572/a/colleague" class="strong"> Salim Lakhani, MD </a> <br>
+                <span class="grn"> IM </span> Houston, TX <a class="addcoll" href="/profile#"> <span>Add Colleague</span> <img alt="Ico-add" src="./img/ico/ico-add-d6f62ca873fe3d193adcb0aced916990.png" title="Add Colleague"> </a> </li>
+              <li class="pymk_sb person seeMore"><a href="/profile#">See more »</a></li>
+              <li class="pymk_sb separator"></li>
+            </div>
+          </div>
+        </div>
+        <div class="col-3-4 procv">
+          <div id="summaries" data-sel-summaries="" class="hide_for_print">
+            <div data-sel-editbox="" class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" data-dialog="{ &quot;title&quot;: &quot;Add Summary&quot;, &quot;url&quot;: &quot;/profiles/5994749/summary/new&quot; }" original-title="Add a brief summary of your career and professional interests">Add</a> </small>
+              <h2>Summary</h2>
+              <ul data-sel-summaries-container="">
+              </ul>
+              <ul data-sel-uploadshare="" class="uploadshare">
+                <li data-sel-upload-presentation="">
+                  <button data-sel-upload-presentation="" class="btn gray floatr">Upload Presentation</button>
+                  <span class="playit a"> </span> <span class="playit b"> <span class="playarrow"></span> </span> <span class="playit c"> </span> <strong>Showcase your expertise!</strong> <small>Share talks and presentations with colleagues.</small> </li>
+              </ul>
+              <div data-sel-presentations-container="" class="presentations_container">
+                <ul data-sel-presentations-list="" class="mediashare ui-sortable">
+                </ul>
+                <p data-sel-buttons="" class="more_section clear"> </p>
+              </div>
+            </div>
+          </div>
+          <div id="specialties">
+            <div class="editbox"> 
+            <small class="editlinks"> 
+            <a href="/profile#" data-dialog="{ &quot;title&quot;: &quot;Specify Specialty, Sub-specialties and Clinical/Reasearch Interests&quot;, &quot;url&quot;: &quot;/profiles/5994749/mesh_interest/edit&quot; }">Ajouter</a> 
+            </small>
+              <h2>Clinical Specialties &amp; Interests</h2>
+              <ul>
+                <li> <em class="strong">Allergy &amp; Immunology</em> </li>
+              </ul>
+            </div>
+          </div>
+          <div id="works" data-sel-works="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="Add Work Experience">Add</a> </small>
+              <h2>Faculty Appointments &amp; Work History</h2>
+              <ul>
+                <li><small class="editlinks"> <a href="/profile#" class="edit">Edit</a> </small> <strong> Allergy Physician </strong> Physician University of Tunisia<br>
+                  Tunis, TN <br>
+                  <small class="date"> 1998
+                  
+                  
+                  - 2005 </small> </li>
+              </ul>
+            </div>
+          </div>
+          <div id="training" data-sel-training="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="" data-dialog="{ &quot;title&quot;: &quot;Add Education or Training&quot;, &quot;url&quot;: &quot;/profiles/5994749/training/new&quot; }">Add</a> </small>
+              <h2>Education &amp; Training</h2>
+              <ul class="training">
+                <li class="themedschool"> <small class="editlinks"> <a href="/profile#" data-dialog="{ &quot;title&quot;: &quot;Edit Medical School&quot;, &quot;url&quot;: &quot;/profiles/5994749/training/4390789/edit?institution[type]=MedicalSchool&quot; }">Edit</a> </small> <a href="/welcome/classmates?user_id=5994749"> <img class="badge_image" alt="Medical School Logo" src="./img/ico/yf5p9fglowsdft1mhacu.jpg"> </a> <a href="/welcome/classmates?user_id=5994749" class="strong"> National School of Science- Tunisia Faculty of Medicine </a> <br>
+                  <span> Class of
+                  2008 </span> </li>
+              </ul>
+            </div>
+          </div>
+          <div id="certifications" data-sel-certifications="" class="hide_for_print">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="Add Certification or Licensure">Add</a> </small>
+              <h2>Certification &amp; Licensure</h2>
+              <ul class="certifications">
+              </ul>
+            </div>
+          </div>
+          <div id="honors" data-sel-honors="" class="hide_for_print">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="Add Award, Honor, or Recognition">Add</a> </small>
+              <h2>Awards, Honors &amp; Recognition</h2>
+              <ul class="certifications">
+              </ul>
+            </div>
+          </div>
+          <div id="trials" data-sel-trials="" class="hide_for_print"> </div>
+          <div id="publications" href="#publications" data-sel-publications="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="import" title="Import Publications from PubMed">Import</a> <a href="/profile#" class="add" title="Add Publications">Add</a> </small>
+              <h2 id="head_pub">Publications &amp; Presentations</h2>
+              <h3 class="pub_type_heading sec_journal_articles">Journal Articles</h3>
+              <ul class="publications sec_journal_articles">
+                <li><small class="editlinks"> <a href="/profile#" class="moveTop" title="Push to Top">Top</a> <a href="/profile#" class="edit" title="Edit">Edit</a> </small> <strong> How to prevent Allergy's Causes </strong> <small> Dr Harun, Times
+                  
+                  - 1/1/2005 </small> </li>
+              </ul>
+            </div>
+          </div>
+          <div id="support_grants" data-sel-support_grants="" class="hide_for_print"> </div>
+          <div id="research_histories" data-sel-research_histories="" class="hide_for_print"> </div>
+          <div id="committees" data-sel-committees="" class="hide_for_print"> </div>
+          <div id="memberships" data-sel-memberships="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="">Add</a> </small>
+              <h2>Professional Memberships</h2>
+              <ul class="membership_rows">
+                <li><small class="editlinks"> <a href="/profile#" class="edit">Edit</a> </small> <img src="./img/ico/aacap.png" class="badge_image"> <strong> <a href="/professional_associations/54" rel="nofollow"> American Academy of Child and Adolescent Psychiatry - AACAP </a> </strong> Member </li>
+                <li><small class="editlinks"> <a href="/profile#" class="edit">Edit</a> </small> <img src="./img/ico/FAAAAI.jpg" class="badge_image"> <strong> <a href="/professional_associations/1" rel="nofollow"> American Academy of Allergy Asthma and Immunology - AAAAI </a> </strong> Member </li>
+              </ul>
+              <ul class="old_memberships">
+              </ul>
+            </div>
+          </div>
+          <div id="languages" data-sel-languages="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="Other Languages Spoken"> Edit </a> </small>
+              <h2>Other Languages</h2>
+              <ul>
+                <li> <em> Arabic, French </em> </li>
+              </ul>
+            </div>
+          </div>
+          <div id="hospitals" data-sel-hospitals="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="Hospital Affiliations"> Edit </a> </small>
+              <h2>Hospital Affiliations</h2>
+              <ul>
+                <li> <img class="badge_image" src="./img/ico/ico-profile-hospitals.png"> <a class="strong" href="/hospitals/2323">T.J. Samson Community Hospital</a><br>
+                  Glasgow, KY </li>
+                <li> <img class="badge_image" src="./img/ico/ico-profile-hospitals.png"> <a class="strong" href="/hospitals/5632">Doctor's Hospital-Tidwell</a><br>
+                  Houston, TX </li>
+              </ul>
+            </div>
+          </div>
+          <div id="affiliations" data-sel-affiliations="" class="hide_for_print"> </div>
+          <div id="insurers" data-sel-insurers="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="Insurance Accepted"> Edit </a> </small>
+              <h2>Insurance Accepted</h2>
+              <ul>
+                <li class="col-1-2">AmeriHealth Direct POS Value Network</li>
+                <li class="col-1-2">AmeriHealth PPO Value Network</li>
+                <li class="col-1-2">Coventry Florida - Employer Group HMO/Open Access</li>
+              </ul>
+            </div>
+          </div>
+          <div id="groups" data-sel-groups="" class="hide_for_print"> </div>
+          <div id="medical_groups" data-sel-medical_groups="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title="Medical Groups">Edit</a> </small>
+              <h2>Medical Groups</h2>
+              <ul>
+                <li class="col-1-2">James H Sternberg</li>
+                <li class="col-1-2">Mother's &amp; Daughter's Center</li>
+              </ul>
+            </div>
+          </div>
+          <div id="industries" data-sel-industries="" class="hide_for_print"> </div>
+          <div id="interests" data-sel-interests="">
+            <div class="editbox"> <small class="editlinks"> <a href="/profile#" class="add" original-title=""> Edit </a> </small>
+              <h2>Interested In</h2>
+              <ul class="checky">
+                <li class="col-1-2">patient referrals</li>
+                <li class="col-1-2">personal reference requests</li>
+                <li class="col-1-2">research collaboration</li>
+                <li class="col-1-2">consulting offers</li>
+                <li class="col-1-2">career opportunities</li>
+                <li class="col-1-2">expertise requests</li>
+                <li class="col-1-2">requests to reconnect</li>
+                <li class="col-1-2">speaking engagements</li>
+              </ul>
+            </div>
+          </div>
+          <div id="links" data-sel-links="" class="hide_for_print"> </div>
+          <div class="clear"></div>
+          <div id="add_sections">
+            <h2 class="toggle_view"> <a href="/profile#">Add Sections</a> Expand your profile to reflect achievements and experience </h2>
+            <div id="add_sections_container">
+              <ul>
+                <li class="col-1-3">
+                  <label id="add_sections_clinical_trials" class="ticlist">
+                  <input type="checkbox">
+                  Clinical Trials </label>
+                </li>
+                <li class="col-1-3">
+                  <label id="add_sections_committees" class="ticlist">
+                  <input type="checkbox">
+                  Committees </label>
+                </li>
+                <li class="col-1-3">
+                  <label id="add_sections_support_grants" class="ticlist">
+                  <input type="checkbox">
+                  Grant Support </label>
+                </li>
+                <li class="col-1-3">
+                  <label id="add_sections_industries" class="ticlist">
+                  <input type="checkbox">
+                  Industry Relationships </label>
+                </li>
+                <li class="col-1-3">
+                  <label id="add_sections_research_histories" class="ticlist">
+                  <input type="checkbox">
+                  Research History </label>
+                </li>
+                <li class="col-1-3">
+                  <label id="add_sections_affiliations" class="ticlist">
+                  <input type="checkbox">
+                  ACO/IPA Affiliations </label>
+                </li>
+                <li class="col-1-3">
+                  <label id="add_sections_links" class="ticlist">
+                  <input type="checkbox">
+                  Links </label>
+                </li>
+              </ul>
+              <div class="clear">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./img/ico/profile-1d255becdc3294f142bb0721bb79fdb1.js" type="text/javascript"></script>
+    <script src="./img/ico/profile_ftue-c7838e6e7ebf53865c6310d848e00cc1.js" type="text/javascript"></script>
+    <script src="./img/ico/jsapi" type="text/javascript"></script>
+    <script>
+  google.load("maps", "3", { other_params: "sensor=false" });
+  google.load("search", "1");
+</script>
+    <script src="./img/ico/js" type="text/javascript"></script>
+    <script src="./img/ico/main.js" type="text/javascript"></script>
+    <script src="./img/ico/saved_resource(1)" type="text/javascript"></script>
+    <link href="./img/ico/default+en.css" type="text/css" rel="stylesheet">
+    <script src="./img/ico/default+en.I.js" type="text/javascript"></script>
+  </div>
+</div>
+<div class="foot">
+  <p class="navline linknav"><span class="copyright">© 2013 Doximity, Inc.</span><a href="/about">About</a><a href="/product">Product</a><a href="/press">Press</a><a href="/help">Contact</a><a href="/privacy">Privacy</a></p>
+  <p class="navline"><span id="siteseal"><strong>Verified &amp; Secured<small>SSL: Secure Socket Layer</small></strong></span></p>
+</div>
+<a href="/profile#" id="feedbacker"><img alt="Share your feedback and ideas" src="./img/ico/feedbacktab-5cd1d0dff3a42317e35339cab67b67c3.png"></a>
+<script defer type="text/javascript">
+var feedback_form = new App.Feedback("mloukinajib@gmail.com");
+jQuery('#feedbacker').bind('click', feedback_form.open);
+</script>
+<div class="dialog grid hidden" style="display: block;">
+  <div class="dialog-modal" style="width: 500px;">
+    <h2 class="title">Share your feedback and ideas</h2>
+    <a class="close" ontouch="">Close</a>
+    <div class="content">
+      <div>
+        <form action="/feedback" method="post" data-remote="true">
+          <p> <strong>What can we do better? Tell us!</strong>
+            <label>
+            <textarea id="feedback_message" name="feedback_message" rows="3" placeholder="Doximity, where have you been all my life!?" class="fullest"></textarea>
+            </label>
+          </p>
+          <input type="hidden" id="feedback_from" name="feedback_from" value="mloukinajib@gmail.com">
+          <fieldset class="sansindent">
+          </fieldset>
+          <input type="hidden" id="feedback_path" name="feedback_path">
+          <p class="buttonset">
+            <button class="btn blue" type="submit">Send feedback</button>
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="bottom"></div>
+    <div style="display:none;" class="dialog-loading"> <span>Loading…</span> </div>
+  </div>
+</div>
+<!-- furry little rodents -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+
+    /* Google Analytics */
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9174133-2']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackPageLoadTime']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  /* ]]> */
+  </script>
+<!-- furry little rodents -->
+<script type="text/javascript">
+
+    user_id = 5994749;
+    /* Adroll */
+    if (user_id) {
+      adroll_custom_data = {"USER_ID": user_id};
+    }
+
+    adroll_adv_id = "ZUBJZTU6VFA4JJESA6NN2Z";
+    adroll_pix_id = "7AUUDRNTCRCMFC4V5T2MMW";
+    (function () {
+    var oldonload = window.onload;
+    window.onload = function(){
+       __adroll_loaded=true;
+       var scr = document.createElement("script");
+       var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+       scr.setAttribute('async', 'true');
+       scr.type = "text/javascript";
+       scr.src = host + "/j/roundtrip.js";
+       ((document.getElementsByTagName('head') || [null])[0] ||
+        document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+       if(oldonload){oldonload()}};
+    }());
+
+  </script>
+<script type="text/javascript">if (typeof NREUMQ !== "undefined") { if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","6f4ffa1cde","566843","dQpYEREKXVwGFBYzQFkDXwkGFnJfDRJLDF5aAERKFxdQUwg5WABGXxNTOgIGUl8WCE0Q",2349,2383,new Date().getTime(),"","","","",""]);}</script>
+<!-- start Mixpanel -->
+<script type="text/javascript">
+          (function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+          mixpanel.init("448a2cbea84ade9e43b72ef50d20586f");
+          mixpanel.set_config({"debug":true});
+        </script>
+<!-- end Mixpanel -->
+<script type="text/javascript" src="./img/ico/nr-100.js"></script>
+<script type="text/javascript" src="./img/ico/6f4ffa1cde"></script>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+<div class="user_hover"><img alt="Loading-000" id="loading_img" src="./img/ico/loading-000-601350f05efe1df5a72420b9e8db7732.gif"></div>
+</body>
+</html>

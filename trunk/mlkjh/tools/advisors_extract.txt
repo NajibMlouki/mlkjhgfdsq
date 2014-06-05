@@ -1,0 +1,142 @@
+Peter E Alperin, MD;San Francisco, CA;Internal Medicine;Vice President of MedicineArchimedes, Inc.;./img/mab/peter_alperin-40827a13a836be180d5b458ea7b2f91b.png 
+Elise Brett, MD;New York, NY;Endocrinology;Associate Clinical ProfessorMount Sinai School of Medicine;./img/mab/elise_brett-d2c2a033bc55a54be1f5132e681efdb1.png 
+Barry Chaiken, MD, MPH;Boston, MA;Family Medicine;Chief Medical OfficerDocsNetwork, Ltd.;./img/mab/barry_chaiken-286ad0d629e5a182ee6e893e5aa07bab.png 
+Lawrence Chin, MD;Syracuse, NY;Neurosurgery;Chair, Department of NeurosurgerySUNY Upstate;./img/mab/lawrence_chin-4312cc353db3ecac013acb0c2fd6ea46.png 
+Brad Cohn, MD;San Francisco, CA;Anesthesiology;Resident PhysicianUCSF Medical Center;./img/mab/brad_cohn-0c8d266d714c39d5dbe524160c2ab8c7.png 
+Alexander Ding, MD;Boston, MA;Radiology;Chief Fellow in Interventional RadiologyMGH;./img/mab/alexander_ding-880947ace481e98298218bd5eeff3595.png 
+Sharon S Drost, MD;Los Altos, CA;Neurology;Member, Board of GovernorsStanford Univ. Medical Center Alumni Assoc.;./img/mab/sharon_drost-19560e8be407b065579a2378dab279ed.jpg 
+Todd Ferris, MD;Menlo Park, CA;Family Medicine;Associate CIOStanford University School of Medicine;./img/mab/todd_ferris-a81b8f1cde5d3efe1019189e6bc381c6.jpg 
+Harvey Fishman, MD, PhD;Palo Alto, CA;Ophthalmology;Founder, FishmanVision and Co-founderMobileD;./img/mab/harvey_fishman-bb08bf4df37ccddcccb7733af6099580.png 
+Alan R Greene, MD;Palo Alto, CA;Pediatrics;Clinical ProfessorStanford University School of Medicine;./img/mab/alan_greene-b1ff0fbe19bcf05ad0bce05f46a5be84.jpg 
+Robert Harvey, MD, MBA;San Francisco, CA;Plastic Surgery;Chairman, Department of SurgerySt. Francis Memorial Hospital;./img/mab/robert_harvey-03e70d6e2a288f97c7927d4d0efa3545.png 
+Natalie Hodge, MD;Paducah, KY;Pediatrics;Founder and Chief Health OfficerPersonal Medicine Inc.;./img/mab/natalie_hodge-9605d79a5f521b65450b33505bca921d.jpg 
+Frederick Hofheinz, MD, MBA;Bedford, MA;Internal Medicine;Chief Medical Information OfficerIntelligent Medical Objects;./img/mab/frederick_hofheinz-cc09357e5064f9ea7201952f99defe1f.png 
+Vikas Jain, MD;Palo Alto, CA;Family Medicine;Sleep Medicine FellowStanford Hospital and Clinics;./img/mab/vikas_jain-9fbe08ef52b7c7878b339003cb4081f0.png 
+Leslie Kardos, MD;San Francisco, CA;OB/GYN;Chief of GynecologyCalifornia Pacific Medical Center;./img/mab/leslie_kardos-c230c913d28f26525b4ab71076f49b84.jpg 
+Joseph Kim, MD, MPH;Newton, PA;Internal Medicine;PresidentMedical Communications Media, Inc.;./img/mab/joseph_kim-0609378a61cccc1a018a0f255904c841.jpg 
+Daniel Kraft, MD;Stanford, CA;Pediatrics / IM;Chair, Medicine TrackSingularity University;./img/mab/daniel_kraft-9ad54845dfb5cac99cfbe9eb6b3dfebd.jpg 
+Leslie Lenert, MD;Salt Lake City, UT;Internal Medicine;Former DirectorNational Ctr for Public Health Informatics, CDC;./img/mab/leslie_lenert-edfd8906c9fe5551c01bff21a122f813.jpg 
+Irving Loh, MD;Thousand Oaks, CA;Cardiology;DirectorVentura Heart Institute;./img/mab/irving_loh-49fe8440b977c4ca3724d7e57281ff4d.jpg 
+Christopher Longhurst, MD;Palo Alto, CA;Pediatrics;CMIOLucile Packard Children's Hospital, Stanford;./img/mab/christopher_longhurst-f680affcb6be4824a15a7a9a75b5e02b.jpg 
+Rafael Lugo, MD;Houston, TX;Surgery;General SurgeonMethodist Hospital Physician Organization;./img/mab/rafael_lugo-2ce2c019a2be24021c0498351e30b211.jpg 
+Howard Luks, MD;Hawthorne, NY;Orthopaedic Surgery;Chief of Sports MedicineUniversity Orthopedics, PC;./img/mab/howard_luks-5bccce3729d7d4e3986d2a38482e6b87.jpg 
+Lawrence Lustig, MD;San Francisco, CA;Otolaryngology;Francis A Sooy, MD Endowed Chair in OHNS UCSF;./img/mab/lawrence_lustig-be7b325c4e671f61a2e8ef8d83d301ab.png 
+Michael Nierenberg, MD;Palo Alto, CA;Internal Medicine;Clinical Professor of Medicine, EmeritusStanford University;./img/mab/michael_nierenberg-7a7afa1f6ba416ff5a2ed9fa0ea30c0f.jpg 
+Connie Price, MD;Denver, CO;Pediatrics;Chief, Infectious DiseaseDenver Health Medical Center;./img/mab/connie_price-cd9edf46a26c43c68fef350cf8467926.jpg 
+Mark Price, MD, PhD;Worcester, MA;Orthopedic Surgery;Assistant ProfessorUniversity of Mass Medical School;./img/mab/mark_price-2e871812045c01153b2dd0a9f1f8ef45.jpg 
+Sanjay Saint, MD, MPH;San Francisco, CA;Internal Medicine;Professor, Department of MedicineUniversity of Michigan;./img/mab/sanjay_saint-c4155ac45fb5cac7d962413711d66a10.png 
+Peter Schalock, MD;Boston, MA;Dermatology;Assistant Prof. of DermatologyHarvard Medical School;./img/mab/peter_schalock-7bd9f4b06905eea7e0cb5497f18e13d3.jpg 
+Nancy Shadick, MD, MPH;Boston, MA;Rheumatology;Assistant Professor of MedicineHarvard Medical School;./img/mab/nancy_shadick-94b9a45aab4337d5283c6d3d91673b39.jpg 
+Joshua A Schwimmer, MD, FACP, FASN;New York, NY;Nephrology;NephrologistLenox Hill Hospital and The Mount Sinai Hospital;./img/mab/joshua_schwimmer-f20762d16f3235c1adbcd02ee4991baa.png 
+Jordan Shlain, MD;San Francisco, CA;Internal Medicine;Medical DirectorCurrent Health Medical Group;./img/mab/jordan_shlain-ff3e8b7e181ee907eea8373cee8fd50a.png 
+Joseph Sirven, MD;Phoenix, AZ;Neurology;Chairman, Department of NeurologyMayo Clinic in Arizona;./img/mab/joseph_sirven-19d6cd83414eef0c83995e555aadfea7.jpg 
+Lauren Stegman, MD, PhD;Phoenix, AZ;Radiation Oncology;Managing PartnerRadiation Oncologists of Central Arizona;./img/mab/lauren_stegman-0410dfe7d76890470479c229371ea449.png 
+Neil Stollman, MD;Oakland, CA;Gastroenterology;Associate Clinical Professor of MedicineUCSF;./img/mab/neil_stollman-183c696fb9419d8a4bf7d69a28e34d3b.jpg 
+E Rand Sutherland, MD, MPH;Denver, CO;Pulmonology;Chief, Pulmonary & Critical CareNational Jewish Medical Center;./img/mab/e_rand_sutherland-2b7a7d39e17279ef5afff198eac71376.png 
+Wendy Sue Swanson, MD;Everett, WA;Pediatrics;Community Pediatrician and Physician Writer;./img/mab/wendy_sue_swanson-b6b40059c1797cb0f485f1f01ba36014.jpg 
+Pierre Theodore, MD;San Francisco, CA;Thoracic Surgery;Van Auken Endowed Chair in Thoracic Surgery UCSF;./img/mab/pierre_theodore-efdfeb8b5c324b5b52894da129477a9a.jpg 
+Michael Thompson, MD, PhD;Milwaukee, WI;Oncology;Medical DirectorEarly Cancer Research Program;./img/mab/michael_thompson-33cdf0615246b6547ac48e15226617c8.jpg 
+Lawrence Tierney, MD;San Francisco, CA;Internal Medicine;Professor in ResidenceUCSF School of Medicine;./img/mab/l_tierney-8369b77012134a886d2ef38225926d98.jpg 
+David Toub, MD, MBA;Wyncote, PA;Obstetrics & Gynecology;Medical DirectorGynesonics, Inc.;./img/mab/david_toub-9fa09b66f4da61315250966e020b294c.png 
+Paul Turek, MD;San Francisco, CA;Urology;Former Endowed Chair Professor of Urology UCSF;./img/mab/paul_turek-f8c6774d36841598649674c5f8d2070e.png 
+Bryan Vartabedian, MD;The Woodlands, TX;Pediatrics;Assistant Professor of PediatricsBaylor College of Medicine;./img/mab/bryan_vartabedian-47ca6774930b2a494ae83cdbdb65224c.jpg 
+Lewis Wexler, MD;Menlo Park, CA;Radiology;Emeritus Professor of RadiologyStanford Medical School;./img/mab/lewis_wexler-9a620c41f25559f8e1c4a37b4bba273e.png 
+Charlotte Wills, MD;Oakland, CA;Emergency Medicine;Associate Residency DirectorHighland Emergency Medicine;./img/mab/charlotte_wills-7a0d6bf08b99acffde9e821d31da2b1b.jpg 
+Felasfa M Wodajo, MD;Arlington, VA;Orthopaedic Surgery;Medical Director, Musculoskeletal OncologyVirginia Hospital Center;./img/mab/felasfa_wodajo-d19f291219889f88915a9a8b2d2eb9dd.jpg 
+Riley Alexander;Arlington, VA;Pathology;ResidentIndiana University School of Medicine;./img/fellows/avatars/Riley-Alexander-91629fa8356996bdf877faff835c4524.jpg 
+Anand Allam;Arlington, VA;Physical Medicine & Rehabilitation / Spinal Cord Injury Medicine;Assistant ProfessorUT Health Science Center;./img/fellows/avatars/Anand-Allam-21b1669296ed552e20b113cf0e9ccc50.jpg 
+Nassir Azimi;Arlington, VA;Cardiology;Interventional CardiologistSharp Grossmont Hospital;./img/fellows/avatars/Nassir-Azimi-34a57847ac738db1cff57233313104dc.jpg 
+David Banach;Arlington, VA;Infectious Diseases;Assistant ProfessorYale School of Medicine;./img/fellows/avatars/David-Banach-93fab967652274a6899df222602a3667.jpg 
+Dipanjan Banerjee;Arlington, VA;Cardiology;Clinical Assistant ProfessorStanford University;./img/fellows/avatars/Dipanjan-Banerjee-c0d804e088bbbbabd11c51d7df19a3a4.jpg 
+Adam Bloomfield;Arlington, VA;Pediatrics;MD / Managing PartnerChestnut Ridge Pediatric Associates;./img/fellows/avatars/Adam-Bloomfield-279f58b05d725e1dd764c4b1b819e3e4.jpg 
+Brian Brodwater;Arlington, VA;Radiology;Senior Partner / Assistant ProfessorDelaney Radiologists / UNC;./img/fellows/avatars/Brian-Brodwater-1ac73cab1e9a0515e21a631c7d6541e0.jpg 
+Salim Chahin;Arlington, VA;Neurology / Multiple Sclerosis;FellowUniversity of Pennsylvania;./img/fellows/avatars/Salim-Chahin-c3782b51b9b7c541dc221fea6255afdf.jpg 
+Daniel Choi;Arlington, VA;Anesthesiology;FellowVirginia Mason Medical Center;./img/fellows/avatars/Daniel-Choi-cf6716ed62f557a930a9290ea9a3e10c.jpg 
+Andrew Cowan;Arlington, VA;Hematology-Oncology;FellowUniversity of Washington;./img/fellows/avatars/Andrew-Cowan-74a8a19aefe1bf5e273377c3f4799e17.png 
+Justin Dunn;Arlington, VA;Cardiovascular Medicine;Chief FellowCleveland Clinic;./img/fellows/avatars/Justin-Dunn-b9ae1851aefc22fcfc392aee5373b593.jpg 
+Melissa Earnest;Arlington, VA;Cardiovascular Medicine;Physician Writer;./img/fellows/avatars/Melissa-Earnest-8a58eb2bd9db6c7e69096222766983f5.jpg 
+Pranav Garimella;Arlington, VA;Nephrology;Clinical-Research FellowTufts Medical Center;./img/fellows/avatars/Pranav-Garimella-b6693e94f1383749fdf7b45b719b8a04.jpg 
+Bruno Granwehr;Arlington, VA;Infectious Diseases;MD / Assistant ProfessorAnderson Cancer Center;./img/fellows/avatars/Bruno-Granwehr-419cd9dff95cf5378c59d066bfb5a090.jpg 
+Safwan Halabi;Arlington, VA;Radiology;Director, Imaging InformaticsHenry Ford Hospital;./img/fellows/avatars/Safwan-Halabi-c8e6facb731f53fa1cd9ff28b8b3b76a.jpg 
+Edith Ho;Arlington, VA;Gastroenterology and Hepatology;Assistant ProfessorCase Western Reserve Univ. / Cleveland VAMC;./img/fellows/avatars/Edith-Ho-bc024665755b4258d9e8883cae3596fb.jpg 
+Anjay Khandelwal;Arlington, VA;Surgery;SurgeoniDOC, LLC;./img/fellows/avatars/Anjay-Khandelwal-b614931db22b5eddf39ff4084c027fcb.jpg 
+Manuel Lam;Arlington, VA;General Internal Medicine;Clinical InstructorStanford University Medical Center;./img/fellows/avatars/Manuel-Lam-23199963084576e34da50a445a75a138.jpg 
+Juan Lopez-Mattei;Arlington, VA;Cardiology;Assistant ProfessorMD Anderson Cancer Center;./img/fellows/avatars/Juan-Lopez-7e542ceb30ed15ea576bf7d60a016924.png 
+Ali Mian;Arlington, VA;Radiology;ResidentYale University;./img/fellows/avatars/Ali-Mian-5d78a048476089f1bbff9a3fdef11c4c.jpg 
+Jitendrakumar Modi;Arlington, VA;Pediatrics;Assistant ProfessorUSU;./img/fellows/avatars/Jitendrakumar-Modi-183d39014922d4858a800818d6bf146e.jpg 
+Claude Nguyen;Arlington, VA;Neurology, Vascular Neurology / Stroke;Assistant ProfessorUniversity of Pennsylvania;./img/fellows/avatars/Claude-Nguyen-6913f1df5535803368bbc1b185586de0.jpg 
+Alisa Niksch;Arlington, VA;Pediatric Cardiology;Director, Pediatric ElectrophysiologyTufts University Medical Center;./img/fellows/avatars/Alisa-Niksch-afb35c0e991e34d24646305b239c1cda.jpg 
+Tolulope Oyetunji;Arlington, VA;Surgery;Chief ResidentHoward University;./img/fellows/avatars/Tolulope-Oyetunji-aceab7bd53027770e057411ffc959e1e.jpg 
+Kelly Park;Arlington, VA;Dermatology;ResidentLoyola University Medical Center;./img/fellows/avatars/Kelly-Park-b7e356f57445d461ad0af07c4b3f4e76.jpg 
+Maulik Purohit;Arlington, VA;Physical Medicine and Rehabilitation/Traumatic Brain Injury;InstructorHarvard Medical School;./img/fellows/avatars/Maulik-Purohit-1d66c754c7aca1d4c06c2a21a36c3637.jpg 
+Chris Richter;Arlington, VA;Emergency Medicine;Regional Medical DirectorEmergency Consultants Inc.;./img/fellows/avatars/Chris-Richter-1c3d5b177a8c7570f3a7a983a7fe8b85.jpg 
+Alex Rusanov;Arlington, VA;Anesthesiology;T32 Research Fellow / Asst. InstructorColumbia University;./img/fellows/avatars/Alex-Rusanov-65cebe2a3abe51f5639f5821ab7e0a24.jpg 
+Korak Sarkar;Arlington, VA;Neurology;Brain Injury FellowInstitute of Chicago(RIC);./img/fellows/avatars/Korak-Sarkar-5b64b3628f22455f998c67b3611b1398.jpg 
+Kush Singh;Arlington, VA;Radiology;Medical DirectorSaint Joseph's Hospital;./img/fellows/avatars/Kush-Singh-1ef0b96117a5ba4def0f91cfe3c518dc.jpg 
+Anne Stevenson;Arlington, VA;Pediatrics;Pediatrician;./img/fellows/avatars/Anne-Stevenson-c5cd15a1fa9d0efbfb49d9e9977a16a4.jpg 
+Samuel Volchenboum;Arlington, VA;Pediatrics;Director CRI / Asst. Prof.University of Chicago;./img/fellows/avatars/Samuel-Volchenboum-933538dea3c0aabd1e1fcc480013e914.png 
+Kevin Wang;Arlington, VA;Dermatology;Assistant ProfessorStanford;./img/fellows/avatars/Kevin-Wang-b253df2e3d02cebcaee518defba36f74.jpg 
+Ofer Wellisch;Arlington, VA;Anesthesiology, Perioperative and Pain Medicine;Attending Physician and Clinical InstructorStanford University;./img/fellows/avatars/Ofer-Wellisch-49b644f5fa64f92db0c07c2b33dc12ad.jpg
+Matthew Wosnitzer;Arlington, VA;Urology;Instructor, FellowWeill Cornell Medical College / NYP;./img/fellows/avatars/Matthew-Wosnitzer-495fbb1deac84a14425c53af0b8cc647.jpg 
+Colby Young;Arlington, VA;Orthopaedics;Managing Partner / Clinical Associate Prof.University of Nevada School of Medicine;./img/fellows/avatars/Colby-Young-e1424e88dce73336e209bf92c4f4250d.jpg 
+Danesh Mazloomdoost;Arlington, VA;Anesthesiology;Medical Director;./img/fellows/avatars/Danesh-Mazloomdoost-138e20162461fa771a7800ede935e61b.jpg 
+Jaspal Ahluwalia;Arlington, VA;Occupational Medicine;Chief, Overseas Clinician TrainingUS Army Medical Research;./img/fellows/avatars/Jaspal-Ahluwalia-fd9a92a99c01d94189b4dd6101483de9.png 
+Jonathan Albert;Arlington, VA;Primary Care;Physician Director, Clinical Contact CenterKaiser Permanente;./img/fellows/avatars/Jonathan-Albert-f82e29c86f0b7826fd8442f2f9d27180.png 
+Nonyelu Anyichie;Arlington, VA;Obstetrics and Gynecology;Attending OBGYNSoundshore Medical Center New Rochelle NY;./img/fellows/avatars/Nonyelu-Anyichie-b7d2418f3dfd7a44933b9f99358c0757.png 
+Robert Bolash;Arlington, VA;Pain Management / Anesthesiology;Fellow in Pain ManagementCleveland Clinic;./img/fellows/avatars/Robert-Bolash-5f9cb4f9faf2e0127c777195a29da5fa.png 
+Donald Buck;Arlington, VA;Plastic Surgery;Chief ResidentNorthwestern University;./img/fellows/avatars/Donald-Buck-ef73c7b6836726382e1e041a4a0a01bf.png 
+Edward Chao;Arlington, VA;Medicine/Endo;Assistant Clinical ProfessorUniversity of California, San Diego;./img/fellows/avatars/Edward-Chao-1d51ab09411b40a6efbcf8f2abd5dab7.png 
+Andy Chien;Arlington, VA;Medicine/Dermatology;Assistant ProfessorUniversity of Washington;./img/fellows/avatars/Andy-Chien-5c068bcbe1f71f1fc0c0d5ac895adc6f.png 
+Garry Choy;Arlington, VA;Radiology;Instructor, Harvard Medical SchoolMassachusetts General Hospital;./img/fellows/avatars/Garry-Choy-a97166c9e5c7acad01a9e64abcd3b17e.png 
+Janis Coffin;Arlington, VA;Family Medicine;Medical DirectorGeorgia Health Sciences University;./img/fellows/avatars/Janis-Coffin-4a2df6478b82b14911cfb0a6504d57ed.png 
+Lisa Czanko;Arlington, VA;Internal Medicine;Attending PhysicianNYU Langone Medical Center;./img/fellows/avatars/Lisa-Czanko-4ddd82f04eeb6749a44132f514ac9313.png 
+Joshua Davidson;Arlington, VA;Allergy and Immunology;Clinical ProfessorHarbor-UCLA Medical Center;./img/fellows/avatars/Joshua-Davidson-7831fd51aa6260a0a8f1d767f955809b.png 
+Michael Davis;Arlington, VA;Psychiatry;FellowUCLA, VA Greater Los Angeles;./img/fellows/avatars/Michael-Davis-ef5f9670ce89c14d23a4859f6fe5d1ef.png 
+Chris DeRienzo;Arlington, VA;Neonatal-Perinatal Medicine;FellowDuke University;./img/fellows/avatars/Chris-Derienzo-2d2a3e39d48cbd0a21a5bb98062ec908.png 
+Sean Dineen;Arlington, VA;Surgery;Assistant ProfessorUT Southwestern;./img/fellows/avatars/Sean-Dineen-fc29ba37c78779891cc57d0b433b7109.png 
+Noam Drazin;Arlington, VA;Oncology/Hematology;Private Practice/Clinical InstructorCedars Sinai Medical Center;./img/fellows/avatars/Noam-Drazin-a784c15919dfc5e4518016ecf4851d60.png 
+Richard Hamilton;Arlington, VA;Retina;PhysicianCenter for Retina and Macular Disease;./img/fellows/avatars/Richard-Hamilton-25113812b6bf21b527c03d92f8798df5.png 
+Nowreen Haq;Arlington, VA;Medicine;Clinical Instructor facultyJohns Hopkins School of Medicine;./img/fellows/avatars/Nowreen-Haq-7e05e4276ae2346674ab22cc57a82f5a.png 
+Allen Ho;Arlington, VA;Head and Neck Surgery;Instructor in SurgeryMemorial Sloan-Kettering Cancer Center;./img/fellows/avatars/Allen-Ho-15efa2ac5af7ff5d88e5539c638f0ab7.png 
+Christopher Holland;Arlington, VA;Neurosurgery;ResidentEmory University;./img/fellows/avatars/Christopher-Holland-7fd8f636af07210d7c65b5721174a50a.png 
+Hooman Kamel;Arlington, VA;Neurology;Assistant ProfessorWeill Cornell Medical College;./img/fellows/avatars/Hooman-Kamel-7a750aba49b6064eca6619404a62ddf3.png 
+Arash Kardan;Arlington, VA;Nuclear Medicine;Clinical Assistant ProfessorOhio University / Wright State University;./img/fellows/avatars/Arash-Kardan-97935ce3a77dd0cebd24e9356013cae3.png 
+Fahd Khan;Arlington, VA;Neurosurgery;Clinical Assistant ProfessorStanford University;./img/fellows/avatars/Fahd-Khan-cc8637de23abb9a9647d7ab6094bbd41.png 
+Armand Krikorian;Arlington, VA;Internal Medicine;Internal Medicine Program DirectorUIC / Advocate Christ Medical Center;./img/fellows/avatars/Armand-Krikorian-f23e496e3eadfbfd5ec7b4b28e245f77.png 
+Michael Lemole;Arlington, VA;Neurosurgery/Surgery;Professor & Chief, NeurosurgeryUniversity of Arizona;./img/fellows/avatars/Michael-Lemole-37cf84dba54af44b003267a9fff5e475.png 
+Lenard Lesser;Arlington, VA;Health Policy Research;Research PhysicianPalo Alto Medical Foundation Research Institute;./img/fellows/avatars/Lenard-Lesser-5c50f4b49d74c2e799b6a3b4c102261e.png 
+Charles Liao;Arlington, VA;Internal Medicine;Clinical Instructor, Clinician Educator TrackStanford University;./img/fellows/avatars/Charles-Liao-c1447ad76f75841884b8035b40d755d8.png 
+Arun Mathews;Arlington, VA;IT / Internal Medicine;Chief Medical Information OfficerMedical Center Hospital System / Texas Tech;./img/fellows/avatars/Arun-Mathews-dd51016a230764a08865fb779f90472c.png 
+Girish Nadkarni;Arlington, VA;Nephrology;FellowMount Sinai Hospital;./img/fellows/avatars/Girish-Nadkarni-241047f895a60f6e2c3603b3eebe4919.png 
+Goutham Narla;Arlington, VA;Medical Genetics;Assistant ProfessorCase Western Reserve University;./img/fellows/avatars/Goutham-Narla-08920480bdc4683ba03da834108956f8.png 
+Philip Ovadia;Arlington, VA;Cardiothoracic Surgery;Cardiothoracic Surgeon, Chief of SurgeryHeritage Valley Health System;./img/fellows/avatars/Philip-Ovadia-3767895c16e9a18fdb1548964b75aa2f.png 
+Dimitrios Papanagnou;Arlington, VA;Emergency Medicine, Medical Simulation;Assistant Clinical ProfessorState University of New York;./img/fellows/avatars/Dimitrios-Papanagnou-e193d9c4705ca6bf4a4effc03c214557.png 
+Vivek Patil;Arlington, VA;Surgery;Attending SurgeonJohns Hopkins Community Physicians;./img/fellows/avatars/Vivek-Patil-fb8b19a86e83a386c00ba2a1ccb72bdb.png 
+Melinda Rathkopf;Arlington, VA;Allergy/Immunology;Clinical ProfessorUniversity of Washington;./img/fellows/avatars/Melinda-Rathkopf-20d238d0e693b292526ddf51439c6fa4.png 
+Richard Scartozzi;Arlington, VA;Retina;Vitreoretinal SurgeonDanbury Eye Physicians & Surgeons;./img/fellows/avatars/Richard-Scartozzi-d169143a188b94daeb81657a40dcdd70.png 
+Kairav Shah;Arlington, VA;Psychiatry;Chief ResidentColumbia University;./img/fellows/avatars/Kairav-Shah-60c1af5f29c667e85ecb1f1c4b8bf713.png 
+Marc Sonenshine;Arlington, VA;Gastroenterology;AssociateAtlanta Gastroenterology Associates;./img/fellows/avatars/Marc-Sonenshine-99fff5374312fcd0b1f803faf7984c2f.png 
+Jon Steuernagle;Arlington, VA;Critical Care;Chief Fellow, Instructor in MedicineMayo Clinic - Rochester;./img/fellows/avatars/Jon-Steuernagle-f4e00f45a1e3638e50d30ec5e94859bd.png 
+Michael Stone;Arlington, VA;Emergency Medicine;Chief, Division of Emergency UltrasoundBrigham & Women's Hospital/Harvard University;./img/fellows/avatars/Michael-Stone-d3033af1450736cbce80fa5fa5a19bfc.png 
+Waimei Tai;Arlington, VA;Neurology, Stanford Stroke Center;Clinical InstructorStanford University;./img/fellows/avatars/Waimei-Tai-4bed2a3b8afc6d5862787174764c8de1.png 
+John Thornton;Arlington, VA;Pulmonary and Critical Care;Assistant ProfessorCase Western Reserve University;./img/fellows/avatars/Daryl-Thornton-c498a45de367cd6dd943c59298f5396e.png 
+Angela Walker;Arlington, VA;Dermatology;Locums ProviderSelf-Employed;./img/fellows/avatars/Angela-Walker-ac755ef73b62247487a64377e4063c4e.png 
+Sylvan Waller;Arlington, VA;Emergency Medicine;Chief Medical OfficerSchumacher Group;./img/fellows/avatars/Sylvan-Waller-0aa63f2b9b9f4a7e1fd922752959c64f.png 
+Christopher Wells;Arlington, VA;Cardiovascular Medicine;Clinical InstructorVanderbilt University School of Medicine;./img/fellows/avatars/Christopher-Wells-d3e73646d6d4d736e2b77a19da92391b.png 
+James Whiteside;Arlington, VA;Obstetrics and Gynecology;Voluntary ProfessorThe University of Cincinnati;./img/fellows/avatars/James-Whiteside-0f2bdc257f3d78ec1fc695d106107195.png 
+Cecilia Wu;Arlington, VA;Pathology;Forensic FellowUniversity of New Mexico;./img/fellows/avatars/Cecilia-Wu-c01469c184b03bc08aeea115066498aa.png 
+Rebecca Coelius;Arlington, VA;Pathology;UCSF School of Medicine2012;./img/ambassador/avatars/Rebecca-Coelius-80bed4e34bbc426ffadb94daeaeada64.png 
+Danielle Jones;Arlington, VA;Pathology;Texas Tech University Health Sciences Center2013;./img/ambassador/avatars/Danielle-Jones-b9c86eac6d9b9a6e20944d0a742d5d42.png 
+Colin Pesyna;Arlington, VA;Pathology;University of Chicago Pritzker SOM2015;./img/ambassador/avatars/Colin-Pesyna-c647b37c52e685af6c631a23bacc05e4.png 
+Ryan Nguyen;Arlington, VA;Pathology;College of Osteopathic Medicine of the Pacific2016;./img/ambassador/avatars/Ryan-Nguyen-0490150ae511bb81325284bc2be732f5.png 
+Matthew Mcadams;Arlington, VA;Pathology;Boston University School of Medicine2015;./img/ambassador/avatars/Matthew-Mcadams-639d6cb095391429677e63fd09652f96.png 
+Ryan Jelinek;Arlington, VA;Pathology;Arizona College of Osteopathic Medicine2016;./img/ambassador/avatars/Ryan-Jelinek-f4e80a3acce5d748ab70e648ec4e9e5b.png 
+Brian Beckord;Arlington, VA;Pathology;St.George's University School of Medicine2015;./img/ambassador/avatars/Brian-Beckord-653a5ae498a1bf0aa7078970b7a59064.png 
+Ryan Koehler;Arlington, VA;Pathology;University of Rochester SOM and Dentistry2014;./img/ambassador/avatars/Brian-Beckord-653a5ae498a1bf0aa7078970b7a59064.png 
+Benjamin Azevedo;Arlington, VA;Pathology;Tulane University School of Medicine2013;./img/ambassador/avatars/Benjamin-Azevedo-3538b90e3f94c02e9f635495139b2aa5.png 
+Amit Ayer;Arlington, VA;Pathology;Wake Forest School of Medicine2013;./img/ambassador/avatars/Amit-Ayer-7728d1a196cbaccd0999e19616c3cc68.png 
+Milana Zaurova;Arlington, VA;Pathology;Mount Sinai School of Medicine2013;./img/ambassador/avatars/Milana-Zaurova-9d64e012e81a5d33b5dd0e17fabebaff.png 
+Konstantin Guericke;San Francisco, CA;Â ;Co-FounderLinkedIn, Inc.;./img/mab/konstantin_guericke-fd109b29411ffa81c69aaa6fc49254d7.png 
+Gil Kliman;San Mateo, CA;Ophthalmology;General PartnerInterWest Partners;./img/mab/gil_kilman-71cc2552bdeb47fa18c3f075198c4bca.png 
+Kevin Spain;San Mateo, CA;Â ;General PartnerEmergence Capital Partners;./img/mab/kevin_spain-f27a58a6b4afa6853624218056123c70.png 
+Rebecca Lynn;Menlo Park, CA;Â ;PartnerMorgenthaler Ventures;./img/mab/rebecca_lynn-558cbb8bb00b14b4fa83f80d8952fcb3.jpg 
