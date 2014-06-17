@@ -48,6 +48,10 @@ if (!isset($_SESSION['login'])) {
 <div class="wrap">
   <!-- The MenuBar Start -->
   <?php   
+          /**
+           * Prepare the $REPOSITORY before each include 
+           **/                      
+          $REPOSITORY='.';
                if (!isset($_SESSION['login'])) { 
                   include 'Template\menuLoguin_tpl.php';
                }else{
@@ -65,6 +69,7 @@ if (!isset($_SESSION['login'])) {
                   title="Dismiss"></a> <span id="flash_message"> </span> 
       </div>
     </div>
+    
   <div class="content grid editpro theprofile" 
         data-roles="[]" 
         data-sel-myprofile="" 
