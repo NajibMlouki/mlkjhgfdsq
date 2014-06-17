@@ -62,7 +62,8 @@ if (!isset($_SESSION['login'])) {
 <div class="wrap">
   <!-- The MenuBar Start -->
   <?php   
-               if (!isset($_SESSION['login'])) { 
+  $REPOSITORY=".";            
+  if (!isset($_SESSION['login'])) { 
                   include 'Template\menuLoguin_tpl.php';
                }else{
                   include 'Template\mainMenu_tpl.php';
@@ -141,7 +142,7 @@ if (!isset($_SESSION['login'])) {
              <option value="2">Sur Rendez-vous</option>
              <option value="3">Chez un clinique</option>
              <option value="4">Chez un hopital</option>
-             <option value="5">A Université</option>
+             <option value="5">A Universitï¿½</option>
           </select>
           
           
