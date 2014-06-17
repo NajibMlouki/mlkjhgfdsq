@@ -178,4 +178,167 @@
  
  04-Jun-2014 , 18:42:46 |  SearchAction:true 
  
+ 06-Jun-2014 , 17:46:05 |  SearchAction:true 
+ 
+ 06-Jun-2014 , 17:49:20 | INSERT INTO medecin (idMedecin, nom, prenom, genre, fonction, specialite, subSpecialite, adresse, gouvernorat, codePostale, telbureau, telportable, fax, pays_fac, gouv_fac, faculte, anneeDiplome, dateNaiss, email, password)
+		 VALUES ('','Habboubi','Fatma','Femme',' 1',NULL,'','Agba Tunis',' 1','2011','71 455 788','98 455 788','97 455 788',' 1',' 1',' 1','2014-06-02','1985-06-03','fatma.habboubi@yahoo.fr','fatma') 
+ 
+ 06-Jun-2014 , 17:49:20 | Nom: Habboubi		Prenom: Fatma     Adresse: Agba Tunis     Pays de faculté:  1     Email: fatma.habboubi@yahoo.fr     Password: fatma 
+ 
+ 06-Jun-2014 , 17:52:02 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 06-Jun-2014 , 17:52:02 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 06-Jun-2014 , 17:52:15 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 06-Jun-2014 , 17:52:15 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 06-Jun-2014 , 17:52:17 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 06-Jun-2014 , 17:52:17 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 06-Jun-2014 , 17:53:48 |  File: Test.php,
+    calEventId  1 
+    calEventDay 3 
+    calEventDateName Mercredi 
+    calEventTitle Visite Libre 
+    calEventBody Cabinet Medecile: Agba route de Ben mahmoud, Béja 
+    calEventStartTime  1401870600000 
+    calEventEndTime  1401883200000 
+    calEventStart  2014-5-4 9:30:0 
+    calEventEnd 2014-5-4 13:0:0
+    calEventType 1 
+ 
+ 
+ 06-Jun-2014 , 17:55:37 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 06-Jun-2014 , 17:55:37 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 06-Jun-2014 , 17:57:02 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 06-Jun-2014 , 17:57:02 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 06-Jun-2014 , 17:58:54 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 06-Jun-2014 , 17:58:54 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 06-Jun-2014 , 18:01:51 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 06-Jun-2014 , 18:01:51 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 06-Jun-2014 , 18:02:08 |    File: modifyCalendar.php,
+    calEventId  1 
+    calEventDay 3 
+    calEventDateName Mercredi 
+    calEventTitle Visite Libre 
+    calEventBody Cabinet Medicale: Agba route de Ben mahmoud, Béja 
+    calEventStartTime  1401870600000 
+    calEventEndTime  1401883200000 
+    calEventStart  2014-5-4 9:30:0 
+    calEventEnd 2014-5-4 13:0:0 
+    calEventType 1
+ 
+ 
+ 06-Jun-2014 , 18:02:17 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 06-Jun-2014 , 18:02:17 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:06:42 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:06:42 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:07:52 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:07:52 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:08:18 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:08:18 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:08:22 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:08:22 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:08:43 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:08:43 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:08:45 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:08:45 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:08:56 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:08:56 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:09:02 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:09:02 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:09:16 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:09:16 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:11:15 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:11:15 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:19:57 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:19:57 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:20:45 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:20:45 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:20:56 |  SELECT nom FROM  institution 
+					   WHERE id_institut = 1 
+ 
+ 17-Jun-2014 , 13:20:56 |  SELECT label FROM  gouvernorat 
+					   WHERE id_gouv = 1 
+ 
+ 17-Jun-2014 , 13:21:13 |  SearchAction:true 
+ 
+ 17-Jun-2014 , 13:21:46 |  key_words : 
+ 
  
