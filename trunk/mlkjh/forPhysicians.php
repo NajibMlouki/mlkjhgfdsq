@@ -28,6 +28,10 @@ if (!isset($_SESSION['login'])) {
 <div class="wrap">
     
    <?php  
+    /**
+           * Prepare the $REPOSITORY before each include 
+           **/                      
+          $REPOSITORY='.';
    //include 'Template/menuLoguin_tpl.php';
    include 'Template/mainMenu_tpl.php';  
    ?>
