@@ -15,7 +15,8 @@
 <body>
 <div class="wrap"> 
   
- <?php include 'Template/menuLoguin_tpl.php'; ?>
+ <?php  $REPOSITORY='.';  
+        include 'Template/menuLoguin_tpl.php'; ?>
   
   <div class="page">
     <div class="notice" data-sel-notice id="flash_notice" style='display:none'>
@@ -89,7 +90,9 @@
 </div>
 
 <?php  include 'Template\footer_tpl.php'; ?>
-<?php  include 'Template\com\feedback_tpl.php'; ?>
+<?php 
+      include 'Template\com\feedback_tpl.php'; 
+ ?>
 
 
 
